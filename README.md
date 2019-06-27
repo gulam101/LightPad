@@ -4,8 +4,7 @@ The idea of the project was to make sure that the application could mimic the sa
 
 But ultimately I decided that the application would just be a notepad clone and nothing else. During this design I learnt how to write cleaner code using C#.
 
-
-I won't be working on this project anymore.
+________________________________________________________________________________________________________________________________________
 
 [key]
 + Added
@@ -30,6 +29,7 @@ I won't be working on this project anymore.
 - Removed the new document from the right click menu
 + Added new menu items in the right click menu
 
+________________________________________________________________________________________________________________________________________
 
 Previous changes
 * Fixed the font size dialog not showing
@@ -46,4 +46,3 @@ Previous chnages
 * Fixed the open file not opening the correct files
 + Added word count
 + Added two new options in the right click menu
-________________________________________________________________________________________________________________________________________
