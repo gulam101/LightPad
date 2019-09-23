@@ -23,7 +23,7 @@ namespace WindowsFormsApp15
             InitializeComponent();
         }
 
-        #region exitApplication
+        #region Exit-Application
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -31,7 +31,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region author
+        #region Author
         private void authorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Created by Gulam Qasim", "Author"
@@ -43,7 +43,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region newDocument
+        #region New-Document
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //declares the variable
@@ -61,7 +61,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region undo
+        #region Undo
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Undo(); //Undo's the text in the box
@@ -71,7 +71,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region redo
+        #region Redo
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Redo();
@@ -81,28 +81,28 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region cut
+        #region Cut
         private void cutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Cut();
         }
         #endregion
 
-        #region copy
+        #region Copy
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Copy();
         }
         #endregion
 
-        #region paste
+        #region Paste
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Paste();
         }
         #endregion
 
-        #region OpenFile
+        #region Open-File
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog op = new OpenFileDialog();
@@ -113,7 +113,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region RichTextBox
+        #region RichText-Box
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             if (SearchCmd.Text.Length > 0) //If the text is greater than zero
@@ -132,7 +132,7 @@ namespace WindowsFormsApp15
             }
             #endregion
 
-        #region ContextMenu
+        #region Context-Menu
 
             ContextMenu cm = new ContextMenu(); //Declares the variable
             cm.MenuItems.Add("Cut", new EventHandler(cutToolStripMenuItem_Click)); //Lists the second item using the variable
@@ -147,7 +147,7 @@ namespace WindowsFormsApp15
 
         #endregion
 
-        #region ControlMenu
+        #region Control-Menu
         private void controlsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Declares the variable
@@ -157,7 +157,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region selectall
+        #region Select-All
 
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -176,28 +176,28 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region Bold
+        #region Font-Bold
         private void boldToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
         }
         #endregion
 
-        #region Italic
+        #region Font-Italic
         private void italicToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
         }
         #endregion
 
-        #region Regular
+        #region Font-Regular
         private void normalTextToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Regular);
         }
         #endregion
 
-        #region FontColour
+        #region Font-Colour
         private void fontColourToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ColorDialog cd = new ColorDialog();
@@ -208,21 +208,21 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region underline
+        #region Font-Underlined
         private void underlineToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Underline);
         }
         #endregion
 
-        #region strike
+        #region Font-Strike
         private void strikeThroughToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Strikeout);
         }
         #endregion
 
-        #region saveas
+        #region SaveAs
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
@@ -235,21 +235,21 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region Bold
+        #region Font-Bold
         private void boldToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
         }
         #endregion
 
-        #region font Italic
+        #region Font-Italic
         private void italicToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
         }
         #endregion
 
-        #region Normal Font
+        #region Normal-Font
         private void normalToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Regular);
@@ -292,7 +292,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region NewDocument
+        #region New-Document
         private void NewDoc_Click(object sender, EventArgs e)
         {
             var newDocument = MessageBox.Show(                     //declares the variable
@@ -331,7 +331,7 @@ namespace WindowsFormsApp15
 
         #endregion
 
-        #region InseertNewDocument
+        #region Insert-New-Document
 
         private void insertNewDocumentToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -351,7 +351,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region DateAndTime
+        #region Date-And-Time
         private void dateTimeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var AreYouSure = MessageBox.Show("Are you sure you want to insert this item?",
@@ -394,7 +394,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region fontsize
+        #region Font-Size
         private void fontSizeToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FontDialog fd = new FontDialog();
@@ -405,7 +405,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region TestMenu
+        #region Test-Menu
         private void newMenuToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var NewMenu = new FileMenu();
@@ -420,7 +420,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region wordcount
+        #region Word-Count
         private void wordCountToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string WordCount = SearchCmd.Text;
@@ -452,7 +452,7 @@ namespace WindowsFormsApp15
 
         #endregion
 
-        #region findnext
+        #region Find-Next
         private void findNextToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int returnValue = 0; //Return value is set to false
@@ -471,7 +471,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region wordCount
+        #region Word-Count
         private void wordCountToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             string WordCount = SearchCmd.Text;
@@ -494,7 +494,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region fontDialog
+        #region Font-Dialog
         private void toolStripButton9_Click(object sender, EventArgs e)
         {
             FontDialog fd = new FontDialog();
@@ -505,7 +505,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region searchCmd
+        #region Search-Cmd
         private void toolStripButton10_Click(object sender, EventArgs e)
         {
             ColorDialog cd = new ColorDialog();
@@ -544,7 +544,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region PrinterIcon
+        #region Printer-Icon
         private void cmdPrint_Click(object sender, EventArgs e)
         {
             PrintDialog Printer = new PrintDialog();
@@ -554,42 +554,42 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region SearchCmd
+        #region Search-Cmd
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
         }
         #endregion
 
-        #region font
+        #region Font-Italic
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
         }
         #endregion
 
-        #region font
+        #region Font-Regular
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Regular);
         }
         #endregion
 
-        #region font
+        #region Font-Strikeout
         private void toolStripButton6_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Strikeout);
         }
         #endregion
 
-        #region font
+        #region Font-underline
         private void toolStripButton7_Click_1(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Underline);
         }
         #endregion
 
-        #region SearchCmd Undo
+        #region Search-Cmd-Undo
         private void toolStripButton8_Click_1(object sender, EventArgs e)
         {
             //Undo's the text in the box
@@ -601,7 +601,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region SearchCmd Redo
+        #region Search-Cmd-Redo
         private void toolStripButton11_Click(object sender, EventArgs e)
         {
             SearchCmd.Redo();
