@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp15
+﻿namespace LightPad
 {
     partial class MainNotepadFrm
     {
@@ -342,7 +342,7 @@
             // 
             this.normalTextToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("normalTextToolStripMenuItem.Image")));
             this.normalTextToolStripMenuItem.Name = "normalTextToolStripMenuItem";
-            this.normalTextToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            this.normalTextToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
             | System.Windows.Forms.Keys.N)));
             this.normalTextToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
             this.normalTextToolStripMenuItem.Text = "Normal Text";

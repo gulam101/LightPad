@@ -8,8 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using LightPad;
+using WindowsFormsApp15;
 
-namespace WindowsFormsApp15
+//namespace WindowsFormsApp15
+namespace LightPad
 {
     public partial class MainNotepadFrm : Form
     {
