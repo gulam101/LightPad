@@ -113,7 +113,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
-        #region RichTestBox
+        #region RichTextBox
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             if (SearchCmd.Text.Length > 0) //If the text is greater than zero
@@ -531,13 +531,10 @@ namespace WindowsFormsApp15
         #endregion
 
         #region LinkedIn
-        /*Under LinkedIn there is a mistake that gives the user 
-       the wrong title
-       fix by changing it*/
         private void linkedInToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var LinkedIn = MessageBox.Show("Make sure you check out my LinkedIn and follow me",
-               "GitHub", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+               "LinkedIn", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             {
                 if (LinkedIn == DialogResult.OK)
                 {
