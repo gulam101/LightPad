@@ -1,18 +1,21 @@
-# LightPad-final
+# LightPad
+
+The project was designed so that the user can create a doucment and then they could add information. 
 
 The idea of the project was to make sure that the application could mimic the same features as notepad. Originally, I was going to design the application so that it could support importing images and I was going to use the Microsoft Word toolbar layout which would blend features between notepad and word.
 
-But ultimately I decided that the application would just be a notepad clone and nothing else. During this design I learnt how to write cleaner code using C#.
+But ultimately I decided that the application would just be a notepad clone and nothing else. 
+
+During this design I learnt how to write cleaner code using C#. I also learnt about the access modifers and what they could do to each class. I also made the code simple and refined it after every commit. I learnt more about the interfaces and how they actually work.
 
 ________________________________________________________________________________________________________________________________________
 
-[key]
-+ Added
-* Fixed
-- Removed
+[New Changes]
+* Fixed repo
+* Corrected files
 
-[New changes]
-* Changed the text colour in the word count from grey to black
+[Previous changes]
++ Changed the text colour in the word count from grey to black
 - Removed the paint feature
 + Added the word count button into the menu
 * Fixed the printer button
@@ -31,14 +34,14 @@ ________________________________________________________________________________
 
 ________________________________________________________________________________________________________________________________________
 
-Previous changes
+[Previous changes]
 * Fixed the font size dialog not showing
 - Removed the search word at the top
 - Removed the About section
 * Fixed the right click menu not correctly showing the options
 ________________________________________________________________________________________________________________________________________
 
-Previous chnages
+[Previous chnages]
 * Fixed the mistake of the application not loading correctly
 - Removed the help menu
 - Removed the test menu
