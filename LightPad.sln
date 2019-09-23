@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp15", "WindowsFormsApp15\WindowsFormsApp15.csproj", "{16E7D898-3B3E-4F1D-88C6-B6E5E762D505}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightPad", "WindowsFormsApp15\LightPad.csproj", "{16E7D898-3B3E-4F1D-88C6-B6E5E762D505}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

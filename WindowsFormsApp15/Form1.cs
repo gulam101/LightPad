@@ -108,7 +108,7 @@ namespace WindowsFormsApp15
                 findNextToolStripMenuItem.Enabled = false;
             }
 
-            #region ContextMenu
+        #region ContextMenu
 
             ContextMenu cm = new ContextMenu(); //Declares the variable
             cm.MenuItems.Add("Cut", new EventHandler(cutToolStripMenuItem_Click)); //Lists the second item using the variable
@@ -123,11 +123,16 @@ namespace WindowsFormsApp15
 
         #endregion
 
+        #region ControlMenu
         private void controlsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var controlsMenu = new controlsMenu(); //Declares the variable
-            controlsMenu.Show(); //Activates the new form
+            //Declares the variable
+            var controlsMenu = new controlsMenu(); 
+            //Activates the new form
+            controlsMenu.Show(); 
         }
+        #endregion
+
         #region selectall
 
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
@@ -147,20 +152,26 @@ namespace WindowsFormsApp15
         }
         #endregion
 
+        #region Bold
         private void boldToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
         }
+        #endregion
 
+        #region Italic
         private void italicToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
         }
+        #endregion
 
+        #region Regular
         private void normalTextToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Regular);
         }
+        #endregion
 
         #region FontColour
         private void fontColourToolStripMenuItem_Click(object sender, EventArgs e)
@@ -173,50 +184,46 @@ namespace WindowsFormsApp15
         }
         #endregion
 
+        #region underline
         private void underlineToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Underline);
         }
+        #endregion
 
+        #region strike
         private void strikeThroughToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Strikeout);
         }
+        #endregion
 
+        #region saveas
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            #region FileSaveAs
-            /*  using (OpenFileDialog ofd = new OpenFileDialog() { Filter = "New LightPad Document *.txt"
-                  ,ValidateNames = true, Multiselect = false })
-              {
-                  if (ofd.ShowDialog() == DialogResult.OK)
-                  {
-                      using (StreamReader sr = new StreamReader(ofd.FileName))
-                      {
-                          string path = ofd.FileName;
-                          Task<string> text = sr.ReadToEndAsync();
-                          //TextBox.
-                      }
-                  }
-              } */
+            
 
-            #endregion
             SaveFileDialog sv = new SaveFileDialog();
             sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
             if (sv.ShowDialog() == DialogResult.OK)
                 SearchCmd.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
             this.Text = sv.FileName;
         }
+        #endregion
 
+        #region Bold
         private void boldToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
         }
+        #endregion
 
+        #region font Italic
         private void italicToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
         }
+        #endregion
 
         #region Normal Font
         private void normalToolStripMenuItem_Click(object sender, EventArgs e)
@@ -355,13 +362,13 @@ namespace WindowsFormsApp15
 
         #endregion
 
+        #region Error
         private void toolStripTextBox1_Click(object sender, EventArgs e)
         {
-            #region Error
             MessageBox.Show("Sorry about that, this feature is not avalible", "Sorry about that",
-                MessageBoxButtons.OK, MessageBoxIcon.Stop);
-            #endregion
+            MessageBoxButtons.OK, MessageBoxIcon.Stop);    
         }
+        #endregion
 
         #region fontsize
         private void fontSizeToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -440,6 +447,7 @@ namespace WindowsFormsApp15
         }
         #endregion
 
+        #region wordCount
         private void wordCountToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             string WordCount = SearchCmd.Text;
@@ -450,7 +458,9 @@ namespace WindowsFormsApp15
                 WordsLbl.ForeColor = Color.Black; //Changes the colour to black               
             }
         }
+        #endregion
 
+        #region Printer
         private void printToolStripMenuItem_Click(object sender, EventArgs e)
         {
             PrintDialog Printer = new PrintDialog();
@@ -458,7 +468,9 @@ namespace WindowsFormsApp15
                 Printer.ShowDialog();
             }
         }
+        #endregion
 
+        #region fontDialog
         private void toolStripButton9_Click(object sender, EventArgs e)
         {
             FontDialog fd = new FontDialog();
@@ -467,7 +479,9 @@ namespace WindowsFormsApp15
                 SearchCmd.Font = fd.Font;
             }
         }
+        #endregion
 
+        #region searchCmd
         private void toolStripButton10_Click(object sender, EventArgs e)
         {
             ColorDialog cd = new ColorDialog();
@@ -476,7 +490,9 @@ namespace WindowsFormsApp15
                 SearchCmd.SelectionColor = cd.Color;
             }
         }
+        #endregion
 
+        #region GitHub
         private void gitHubToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             var GitHub = MessageBox.Show("Make sure you check out my GitHub Projects (:",
@@ -488,7 +504,12 @@ namespace WindowsFormsApp15
                 }
             }
         }
+        #endregion
 
+        #region LinkedIn
+        /*Under LinkedIn there is a mistake that gives the user 
+       the wrong title
+       fix by changing it*/
         private void linkedInToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var LinkedIn = MessageBox.Show("Make sure you check out my LinkedIn and follow me",
@@ -500,7 +521,9 @@ namespace WindowsFormsApp15
                 }
             }
         }
+        #endregion
 
+        #region PrinterIcon
         private void cmdPrint_Click(object sender, EventArgs e)
         {
             PrintDialog Printer = new PrintDialog();
@@ -508,46 +531,64 @@ namespace WindowsFormsApp15
                 Printer.ShowDialog();
             }
         }
+        #endregion
 
+        #region SearchCmd
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
         }
+        #endregion
 
+        #region font
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
         }
+        #endregion
 
+        #region font
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Regular);
         }
+        #endregion
 
+        #region font
         private void toolStripButton6_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Strikeout);
         }
+        #endregion
 
+        #region font
         private void toolStripButton7_Click_1(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Underline);
         }
+        #endregion
 
+        #region SearchCmd Undo
         private void toolStripButton8_Click_1(object sender, EventArgs e)
         {
-            SearchCmd.Undo(); //Undo's the text in the box
-            undoToolStripMenuItem.Enabled = false; //The option is disabled by default 
+            //Undo's the text in the box
+            SearchCmd.Undo();
+            //The option is disabled by default
+            undoToolStripMenuItem.Enabled = false;  
             //But when a user wants to undo then this option is enabled
             redoToolStripMenuItem.Enabled = true;
         }
+        #endregion
 
+        #region SearchCmd Redo
         private void toolStripButton11_Click(object sender, EventArgs e)
         {
             SearchCmd.Redo();
+            //The option is disabled by default 
             redoToolStripMenuItem.Enabled = false;
-            undoToolStripMenuItem.Enabled = true; //The option is disabled by default 
             //But when a user wants to redo this then option is enabled
+            undoToolStripMenuItem.Enabled = true; 
         }
+        #endregion
     }
 }
