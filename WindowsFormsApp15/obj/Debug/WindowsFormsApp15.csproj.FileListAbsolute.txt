@@ -1,0 +1,41 @@
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe.config
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.pdb
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.csprojAssemblyReference.cache
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.Properties.Resources.resources
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.csproj.GenerateResource.cache
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.csproj.CoreCompileInputs.cache
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.exe
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.pdb
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.MainNotepadFrm.resources
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.AboutBox1.resources
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.controlsMenu.resources
+C:\Users\Gulam\source\repos\WindowsFormsApp15\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.SaveFunc.resources
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe.config
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.pdb
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.csprojAssemblyReference.cache
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.AboutBox1.resources
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.MainNotepadFrm.resources
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.controlsMenu.resources
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.Properties.Resources.resources
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.SaveFunc.resources
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.csproj.GenerateResource.cache
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.csproj.CoreCompileInputs.cache
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.exe
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.pdb
+C:\Users\Gulam\Downloads\LightPad-master (1)\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.FileMenu.resources
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.csprojAssemblyReference.cache
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.AboutBox1.resources
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.FileMenu.resources
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.MainNotepadFrm.resources
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.controlsMenu.resources
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.Properties.Resources.resources
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.SaveFunc.resources
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.csproj.GenerateResource.cache
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.csproj.CoreCompileInputs.cache
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.exe
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.pdb
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe.config
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe
+C:\Users\Gulam\Downloads\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.pdb
