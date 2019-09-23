@@ -23,24 +23,33 @@ namespace WindowsFormsApp15
             InitializeComponent();
         }
 
+        #region exitApplication
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit(); // Closes the application
+            Application.Exit();
+            // Closes the application
         }
-        
+        #endregion
+
+        #region author
         private void authorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Created by Gulam Qasim", "Author"
                 , MessageBoxButtons.OK
-                , MessageBoxIcon.Information); /*
+                , MessageBoxIcon.Information); 
+            /*
              * This text box shows a message box
              */
         }
+        #endregion
 
+        #region newDocument
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var newDocument = MessageBox.Show(                          //declares the variable
-                "Are you sure you want to create a new document?", //Displays the text
+            //declares the variable
+            var newDocument = MessageBox.Show(
+                //Displays the text
+                "Are you sure you want to create a new document?", 
                 "Are you sure", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Warning);
             //Adds information such as the yes/no button and the warning icon with two arguments
@@ -50,7 +59,9 @@ namespace WindowsFormsApp15
                 SearchCmd.Clear();
             }
         }
+        #endregion
 
+        #region undo
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Undo(); //Undo's the text in the box
@@ -58,7 +69,9 @@ namespace WindowsFormsApp15
             //But when a user wants to undo then this option is enabled
             redoToolStripMenuItem.Enabled = true;
         }
+        #endregion
 
+        #region redo
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Redo();
@@ -66,22 +79,30 @@ namespace WindowsFormsApp15
             undoToolStripMenuItem.Enabled = true; //The option is disabled by default 
             //But when a user wants to redo this then option is enabled
         }
+        #endregion
 
+        #region cut
         private void cutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Cut();
         }
+        #endregion
 
+        #region copy
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Copy();
         }
+        #endregion
 
+        #region paste
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.Paste();
         }
+        #endregion
 
+        #region OpenFile
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog op = new OpenFileDialog();
@@ -90,7 +111,9 @@ namespace WindowsFormsApp15
                 SearchCmd.LoadFile(op.FileName, RichTextBoxStreamType.PlainText);
             this.Text = op.FileName;
         }
+        #endregion
 
+        #region RichTestBox
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             if (SearchCmd.Text.Length > 0) //If the text is greater than zero
@@ -107,6 +130,7 @@ namespace WindowsFormsApp15
                 cutToolStripMenuItem.Enabled = false;
                 findNextToolStripMenuItem.Enabled = false;
             }
+            #endregion
 
         #region ContextMenu
 
