@@ -16,10 +16,7 @@ namespace LightPad
 {
     public partial class MainNotepadFrm : Form
     {
-        //Declaring variables
-        int start;
         public bool WordWrap { get; set; }
-        //Close
 
         public MainNotepadFrm()
         {
