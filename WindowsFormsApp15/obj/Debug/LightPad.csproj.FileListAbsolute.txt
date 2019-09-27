@@ -9,3 +9,4 @@ C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\LightPad-Build-2-master
 C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.exe
 C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.pdb
 C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.MainNotepadFrm.resources
+C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csprojAssemblyReference.cache

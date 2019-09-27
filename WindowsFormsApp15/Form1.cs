@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using LightPad;
+using System.Diagnostics;
 using WindowsFormsApp15;
 
 //namespace WindowsFormsApp15
@@ -117,7 +118,7 @@ namespace LightPad
         #endregion
 
         #region RichText-Box
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+    private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             if (SearchCmd.Text.Length > 0) //If the text is greater than zero
             {
@@ -228,13 +229,28 @@ namespace LightPad
         #region SaveAs
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            string documentSaved = "Document saved successfully!";
+            string documentNotSaved = "Document has not saved!";
 
-            SaveFileDialog sv = new SaveFileDialog();
-            sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
-            if (sv.ShowDialog() == DialogResult.OK)
-                SearchCmd.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
-            this.Text = sv.FileName;
+            //Casts into BOOl
+            bool save = bool.Parse(documentSaved);
+            bool notSaved = bool.Parse(documentNotSaved);
+
+            if(save == true)
+            {
+                SaveFileDialog sv = new SaveFileDialog();
+                sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
+                    if (sv.ShowDialog() == DialogResult.OK)
+                        SearchCmd.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
+                        Text = sv.FileName;
+                //WordsLbl.Text = documentNotSaved;
+                MessageBox.Show("Test", "Test");
+
+            } else if (notSaved == true)
+            {
+                //WordsLbl.Text = documentNotSaved;
+                MessageBox.Show("Test", "Test");
+            }
         }
         #endregion
 
@@ -242,6 +258,7 @@ namespace LightPad
         private void boldToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
+            MessageBox.Show("Test", "Test");
         }
         #endregion
 
@@ -249,6 +266,7 @@ namespace LightPad
         private void italicToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
+            MessageBox.Show("Test", "Test");
         }
         #endregion
 
@@ -256,6 +274,7 @@ namespace LightPad
         private void normalToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Regular);
+            MessageBox.Show("Test", "Test");
         }
         #endregion
 
@@ -263,6 +282,7 @@ namespace LightPad
         private void strikeThroughToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Strikeout);
+            MessageBox.Show("Test", "Test");
         }
         #endregion
 
@@ -270,6 +290,7 @@ namespace LightPad
         private void toolStripButton7_Click(object sender, EventArgs e)
         {
             SearchCmd.Cut();
+            MessageBox.Show("Test", "Test");
         }
         #endregion
 
@@ -370,6 +391,9 @@ namespace LightPad
             {
                 MessageBox.Show("Your document has been untouched",
                 "Not changed!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                //Unfished/Test
+                WordsLbl.Text = "Document has been untouched!";
             }
             if (AreYouSure == DialogResult.Cancel)
             {
@@ -447,7 +471,7 @@ namespace LightPad
             {
                 if(GitHub == DialogResult.OK)
                 {
-                    System.Diagnostics.Process.Start("https://github.com/gulam101");
+                    Process.Start("https://github.com/gulam101");
                 }
             }
 
@@ -478,7 +502,7 @@ namespace LightPad
         private void wordCountToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             string WordCount = SearchCmd.Text;
-            char[] seperator = { ' ' };
+            char[] seperator = {' '};
             int WordsCounted = WordCount.Split(seperator, StringSplitOptions.RemoveEmptyEntries).Length;
             WordsLbl.Text = WordsCounted.ToString();
             {
@@ -527,7 +551,7 @@ namespace LightPad
             {
                 if (GitHub == DialogResult.OK)
                 {
-                    System.Diagnostics.Process.Start("https://github.com/gulam101");
+                    Process.Start("https://github.com/gulam101");
                 }
             }
         }
@@ -541,7 +565,7 @@ namespace LightPad
             {
                 if (LinkedIn == DialogResult.OK)
                 {
-                    System.Diagnostics.Process.Start("https://www.linkedin.com/in/gulam-qasim-8a8b0816b/");
+                    Process.Start("https://www.linkedin.com/in/gulam-qasim-8a8b0816b/");
                 }
             }
         }
