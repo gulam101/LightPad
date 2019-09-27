@@ -60,7 +60,7 @@ namespace LightPad
 
             if (newDocument == DialogResult.Yes)
             {
-                SearchCmd.Clear();
+                TextBox.Clear();
             }
         }
         #endregion
@@ -68,7 +68,7 @@ namespace LightPad
         #region Undo
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.Undo(); //Undo's the text in the box
+            TextBox.Undo(); //Undo's the text in the box
             undoToolStripMenuItem.Enabled = false; //The option is disabled by default 
             //But when a user wants to undo then this option is enabled
             redoToolStripMenuItem.Enabled = true;
@@ -78,7 +78,7 @@ namespace LightPad
         #region Redo
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.Redo();
+            TextBox.Redo();
             redoToolStripMenuItem.Enabled = false;
             undoToolStripMenuItem.Enabled = true; //The option is disabled by default 
             //But when a user wants to redo this then option is enabled
@@ -88,21 +88,21 @@ namespace LightPad
         #region Cut
         private void cutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.Cut();
+            TextBox.Cut();
         }
         #endregion
 
         #region Copy
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.Copy();
+            TextBox.Copy();
         }
         #endregion
 
         #region Paste
         private void pasteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.Paste();
+            TextBox.Paste();
         }
         #endregion
 
@@ -112,7 +112,7 @@ namespace LightPad
             OpenFileDialog op = new OpenFileDialog();
             //Creates a var and assigns it a value 
             if (op.ShowDialog() == DialogResult.OK)
-                SearchCmd.LoadFile(op.FileName, RichTextBoxStreamType.PlainText);
+                TextBox.LoadFile(op.FileName, RichTextBoxStreamType.PlainText);
             this.Text = op.FileName;
         }
         #endregion
@@ -120,7 +120,7 @@ namespace LightPad
         #region RichText-Box
     private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            if (SearchCmd.Text.Length > 0) //If the text is greater than zero
+            if (TextBox.Text.Length > 0) //If the text is greater than zero
             {
                 undoToolStripMenuItem.Enabled = true; //Then undo is enabled
                 copyToolStripMenuItem.Enabled = true;
@@ -146,7 +146,7 @@ namespace LightPad
             cm.MenuItems.Add("Undo", (undoToolStripMenuItem_Click));
             cm.MenuItems.Add("Redo", (redoToolStripMenuItem_Click));
             cm.MenuItems.Add("Print", (printToolStripMenuItem_Click));
-            SearchCmd.ContextMenu = cm; //Refers back to the object
+            TextBox.ContextMenu = cm; //Refers back to the object
         }
 
         #endregion
@@ -165,7 +165,7 @@ namespace LightPad
 
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectAll();
+            TextBox.SelectAll();
         }
         #endregion
 
@@ -175,7 +175,7 @@ namespace LightPad
             SaveFileDialog sv = new SaveFileDialog();
             sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
             if (sv.ShowDialog() == DialogResult.OK)
-                SearchCmd.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
+                TextBox.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
             this.Text = sv.FileName;
         }
         #endregion
@@ -183,21 +183,21 @@ namespace LightPad
         #region Font-Bold
         private void boldToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Bold);
         }
         #endregion
 
         #region Font-Italic
         private void italicToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Italic);
         }
         #endregion
 
         #region Font-Regular
         private void normalTextToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Regular);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
         }
         #endregion
 
@@ -207,7 +207,7 @@ namespace LightPad
             ColorDialog cd = new ColorDialog();
             {
                 cd.ShowDialog();
-                SearchCmd.SelectionColor = cd.Color;
+                TextBox.SelectionColor = cd.Color;
             }
         }
         #endregion
@@ -215,14 +215,14 @@ namespace LightPad
         #region Font-Underlined
         private void underlineToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Underline);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Underline);
         }
         #endregion
 
         #region Font-Strike
         private void strikeThroughToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Strikeout);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Strikeout);
         }
         #endregion
 
@@ -241,7 +241,7 @@ namespace LightPad
                 SaveFileDialog sv = new SaveFileDialog();
                 sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
                     if (sv.ShowDialog() == DialogResult.OK)
-                        SearchCmd.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
+                        TextBox.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
                         Text = sv.FileName;
                 //WordsLbl.Text = documentNotSaved;
                 MessageBox.Show("Test", "Test");
@@ -257,7 +257,7 @@ namespace LightPad
         #region Font-Bold
         private void boldToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Bold);
             MessageBox.Show("Test", "Test");
         }
         #endregion
@@ -265,7 +265,7 @@ namespace LightPad
         #region Font-Italic
         private void italicToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Italic);
             MessageBox.Show("Test", "Test");
         }
         #endregion
@@ -273,7 +273,7 @@ namespace LightPad
         #region Normal-Font
         private void normalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Regular);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
             MessageBox.Show("Test", "Test");
         }
         #endregion
@@ -281,7 +281,7 @@ namespace LightPad
         #region Strike
         private void strikeThroughToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Strikeout);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Strikeout);
             MessageBox.Show("Test", "Test");
         }
         #endregion
@@ -289,7 +289,7 @@ namespace LightPad
         #region Cut
         private void toolStripButton7_Click(object sender, EventArgs e)
         {
-            SearchCmd.Cut();
+            TextBox.Cut();
             MessageBox.Show("Test", "Test");
         }
         #endregion
@@ -302,7 +302,7 @@ namespace LightPad
                 NewFolder.Title = "Open";
                 NewFolder.Filter = "txt files(*.txt)|*.txt|All files(*.*)|*.* ";
             if (NewFolder.ShowDialog() == DialogResult.OK)
-                SearchCmd.LoadFile(NewFolder.FileName, RichTextBoxStreamType.PlainText);
+                TextBox.LoadFile(NewFolder.FileName, RichTextBoxStreamType.PlainText);
             #region Check
             //this.Text = NewFolder.FileName;
             {
@@ -327,7 +327,7 @@ namespace LightPad
 
             if (newDocument == DialogResult.Yes)
             {
-                SearchCmd.Clear();
+                TextBox.Clear();
             }
         }
         #endregion
@@ -338,7 +338,7 @@ namespace LightPad
             SaveFileDialog sv = new SaveFileDialog();
             sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
             if (sv.ShowDialog() == DialogResult.OK)
-                SearchCmd.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
+                TextBox.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
             this.Text = sv.FileName;
         }
         #endregion
@@ -383,8 +383,8 @@ namespace LightPad
 
             if (AreYouSure == DialogResult.Yes)
             {
-                string value = SearchCmd.Text;
-                SearchCmd.Text = DateTime.Now.Hour.ToString() + ":" + DateTime.Now.Minute.ToString() + ":" +
+                string value = TextBox.Text;
+                TextBox.Text = DateTime.Now.Hour.ToString() + ":" + DateTime.Now.Minute.ToString() + ":" +
                 DateTime.Now.Second.ToString() + "  " + DateTime.Now.Date.ToString() + value;
             }
             if (AreYouSure == DialogResult.No)
@@ -427,7 +427,7 @@ namespace LightPad
             FontDialog fd = new FontDialog();
             if (fd.ShowDialog() == DialogResult.OK)
             {
-                SearchCmd.Font = fd.Font;
+                TextBox.Font = fd.Font;
             }
         }
         #endregion
@@ -450,7 +450,7 @@ namespace LightPad
         #region Word-Count
         private void wordCountToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string WordCount = SearchCmd.Text;
+            string WordCount = TextBox.Text;
             char[] seperator = {' '};
                 int WordsCounted = WordCount.Split(seperator, StringSplitOptions.RemoveEmptyEntries).Length;
                 WordsLbl.Text = WordsCounted.ToString();
@@ -488,7 +488,7 @@ namespace LightPad
             if (Text.Length > 0 && StartPosition >= 0)
             {
                 //Obtains the location of the string in the textbox
-                int indexToText = SearchCmd.Find(Text, start, RichTextBoxFinds.MatchCase);
+                int indexToText = TextBox.Find(Text, start, RichTextBoxFinds.MatchCase);
 
                 if(indexToText >= 0) 
                 {
@@ -501,7 +501,7 @@ namespace LightPad
         #region Word-Count
         private void wordCountToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            string WordCount = SearchCmd.Text;
+            string WordCount = TextBox.Text;
             char[] seperator = {' '};
             int WordsCounted = WordCount.Split(seperator, StringSplitOptions.RemoveEmptyEntries).Length;
             WordsLbl.Text = WordsCounted.ToString();
@@ -527,7 +527,7 @@ namespace LightPad
             FontDialog fd = new FontDialog();
             if (fd.ShowDialog() == DialogResult.OK)
             {
-                SearchCmd.Font = fd.Font;
+                TextBox.Font = fd.Font;
             }
         }
         #endregion
@@ -538,7 +538,7 @@ namespace LightPad
             ColorDialog cd = new ColorDialog();
             {
                 cd.ShowDialog();
-                SearchCmd.SelectionColor = cd.Color;
+                TextBox.SelectionColor = cd.Color;
             }
         }
         #endregion
@@ -584,35 +584,35 @@ namespace LightPad
         #region Search-Cmd
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Bold);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Bold);
         }
         #endregion
 
         #region Font-Italic
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Italic);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Italic);
         }
         #endregion
 
         #region Font-Regular
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Regular);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
         }
         #endregion
 
         #region Font-Strikeout
         private void toolStripButton6_Click(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Strikeout);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Strikeout);
         }
         #endregion
 
         #region Font-underline
         private void toolStripButton7_Click_1(object sender, EventArgs e)
         {
-            SearchCmd.SelectionFont = new Font(SearchCmd.Font, FontStyle.Underline);
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Underline);
         }
         #endregion
 
@@ -620,7 +620,7 @@ namespace LightPad
         private void toolStripButton8_Click_1(object sender, EventArgs e)
         {
             //Undo's the text in the box
-            SearchCmd.Undo();
+            TextBox.Undo();
             //The option is disabled by default
             undoToolStripMenuItem.Enabled = false;  
             //But when a user wants to undo then this option is enabled
@@ -631,7 +631,7 @@ namespace LightPad
         #region Search-Cmd-Redo
         private void toolStripButton11_Click(object sender, EventArgs e)
         {
-            SearchCmd.Redo();
+            TextBox.Redo();
             //The option is disabled by default 
             redoToolStripMenuItem.Enabled = false;
             //But when a user wants to redo this then option is enabled
