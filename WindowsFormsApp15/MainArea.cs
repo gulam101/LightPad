@@ -19,6 +19,7 @@ namespace LightPad
     {
         //Declare var
         int start;
+
         public bool WordWrap { get; set; }
         //end
 
@@ -638,5 +639,34 @@ namespace LightPad
             undoToolStripMenuItem.Enabled = true; 
         }
         #endregion
+
+        private void ToolStripButton4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DarkModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bool CheckDarkMode = true;
+            bool CheckWhiteMode = true;
+
+            if(CheckDarkMode == true)
+            {
+                //Creates a darkmode
+                TextBox.BackColor = Color.DarkSlateGray;
+                TextBox.ForeColor = Color.White;
+            } else if (CheckWhiteMode == true)
+            {
+                TextBox.BackColor = Color.White;
+                TextBox.ForeColor = Color.Black;
+            }
+            
+        }
+
+        private void LightModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TextBox.BackColor = Color.White;
+            TextBox.ForeColor = Color.DarkSlateGray;
+        }
     }
 }
