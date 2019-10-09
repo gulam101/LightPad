@@ -7,20 +7,23 @@
 
  
 
+[Latest Changes]
++ Darkmode and light mode have been added
+* Corrected mistake when user clicked on GitHub but the title said "LinkedIn"
+* Corrected a few spelling mistakes
+* Adjusted a few features
+- Removed unused interfaces
+* Changes to documents are now shown in the location of the word count
+* Fixed a rare bug within the file
+* Changed some information within the application.
 
-
-Previous build
+[Previous Changes]
 * Fixed the font size dialog not showing
-
 - Removed the search word at the top
-
 - Removed the About section
-
 * Fixed the right click menu not correctly showing the options
 
-
-
-Previous chnages
+[Previous Changes]
 * Fixed the mistake of the application not loading correctly
 - Removed the help menu
 - Removed the test menu
@@ -29,7 +32,7 @@ Previous chnages
 + Added word count
 + Added two new options in the right click menu
 
-[New changes]
+[Previous Changes]
 * Changed the text colour in the word count from grey to black
 - Removed the paint feature
 + Added the word count button into the menu
