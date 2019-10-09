@@ -31,8 +31,8 @@ namespace LightPad
         #region Exit-Application
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Closes the application
             Application.Exit();
-            // Closes the application
         }
         #endregion
 
@@ -69,8 +69,10 @@ namespace LightPad
         #region Undo
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            TextBox.Undo(); //Undo's the text in the box
-            undoToolStripMenuItem.Enabled = false; //The option is disabled by default 
+            //Undo's the text in the box
+            TextBox.Undo();
+            //The option is disabled by default 
+            undoToolStripMenuItem.Enabled = false; 
             //But when a user wants to undo then this option is enabled
             redoToolStripMenuItem.Enabled = true;
         }
@@ -80,8 +82,9 @@ namespace LightPad
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TextBox.Redo();
+            //The option is disabled by default 
             redoToolStripMenuItem.Enabled = false;
-            undoToolStripMenuItem.Enabled = true; //The option is disabled by default 
+            undoToolStripMenuItem.Enabled = true; 
             //But when a user wants to redo this then option is enabled
         }
         #endregion
@@ -119,18 +122,21 @@ namespace LightPad
         #endregion
 
         #region RichText-Box
-    private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
-            if (TextBox.Text.Length > 0) //If the text is greater than zero
+            //If the text is greater than zero
+            if (TextBox.Text.Length > 0) 
             {
-                undoToolStripMenuItem.Enabled = true; //Then undo is enabled
+                //Then undo is enabled
+                undoToolStripMenuItem.Enabled = true; 
                 copyToolStripMenuItem.Enabled = true;
                 cutToolStripMenuItem.Enabled = true;
                 findNextToolStripMenuItem.Enabled = true;
             }
             else
             {
-                undoToolStripMenuItem.Enabled = false; // else if the text isn't greater than zero thzn undo is false
+                // else if the text isn't greater than zero thzn undo is false
+                undoToolStripMenuItem.Enabled = false; 
                 copyToolStripMenuItem.Enabled = false;
                 cutToolStripMenuItem.Enabled = false;
                 findNextToolStripMenuItem.Enabled = false;
@@ -138,16 +144,24 @@ namespace LightPad
             #endregion
 
         #region Context-Menu
-
-            ContextMenu cm = new ContextMenu(); //Declares the variable
-            cm.MenuItems.Add("Cut", new EventHandler(cutToolStripMenuItem_Click)); //Lists the second item using the variable
-            cm.MenuItems.Add("Copy", new EventHandler(copyToolStripMenuItem_Click)); //Lists the third item using the variable
-            cm.MenuItems.Add("Paste", new EventHandler(pasteToolStripMenuItem_Click)); //Lists the fourth item using the variable
-            cm.MenuItems.Add("Word Count", (wordCountToolStripMenuItem_Click));
-            cm.MenuItems.Add("Undo", (undoToolStripMenuItem_Click));
-            cm.MenuItems.Add("Redo", (redoToolStripMenuItem_Click));
-            cm.MenuItems.Add("Print", (printToolStripMenuItem_Click));
-            TextBox.ContextMenu = cm; //Refers back to the object
+            //Declares the variable
+            ContextMenu cm = new ContextMenu();
+            //Lists the first item using the variable
+            cm.MenuItems.Add("Cut", new EventHandler(cutToolStripMenuItem_Click));
+            //Lists the second item using the variable
+            cm.MenuItems.Add("Copy", new EventHandler(copyToolStripMenuItem_Click));
+            //Lists the third item using the variable
+            cm.MenuItems.Add("Paste", new EventHandler(pasteToolStripMenuItem_Click));
+            //Lists the fourth item using the variable
+            cm.MenuItems.Add("Word Count", new EventHandler(wordCountToolStripMenuItem_Click));
+            //Lists the fifth item using the variable
+            cm.MenuItems.Add("Undo", new EventHandler(undoToolStripMenuItem_Click));
+            //Lists the sixith item using the variable
+            cm.MenuItems.Add("Redo", new EventHandler(redoToolStripMenuItem_Click));
+            //Lists the seventh item using the variable
+            cm.MenuItems.Add("Print", new EventHandler(printToolStripMenuItem_Click));
+            //Refers back to the object
+            TextBox.ContextMenu = cm; 
         }
 
         #endregion
