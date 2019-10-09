@@ -23,7 +23,7 @@ ________________________________________________________________________________
 - Removed the image button (Scrapped the idea)
 * Changed the save as short key to CTRL S
 - Removed the word wrap (Scrapped the idea)
-* Fixed the two non working buttons in the memu. They now display the font text and the font size
+* Fixed the two non working buttons in the menu. They now display the font text and the font size
 * Corrected the images for both font text and font size
 * Adjusted the menu and added in new icons
 - Removed the insert new document tab (Scrapped idea or will use for a new project)
