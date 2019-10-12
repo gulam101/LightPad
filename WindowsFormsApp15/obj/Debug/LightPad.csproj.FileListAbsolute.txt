@@ -13,10 +13,8 @@ C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\LightPad-Build-2-master
 C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe.config
 C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe
 C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.pdb
-C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csprojAssemblyReference.cache
 C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.FileMenu.resources
 C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.MainNotepadFrm.resources
-C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.controlsMenu.resources
 C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.Properties.Resources.resources
 C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csproj.GenerateResource.cache
 C:\Users\Gulam\Desktop\LightPad-master\LightPad-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-Build-2-master\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csproj.CoreCompileInputs.cache

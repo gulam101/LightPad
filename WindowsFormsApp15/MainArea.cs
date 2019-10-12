@@ -12,7 +12,6 @@ using LightPad;
 using System.Diagnostics;
 using WindowsFormsApp15;
 
-//namespace WindowsFormsApp15
 namespace LightPad
 {
     public partial class MainNotepadFrm : Form
@@ -166,16 +165,6 @@ namespace LightPad
 
         #endregion
 
-        #region Control-Menu
-        private void controlsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //Declares the variable
-            var controlsMenu = new controlsMenu(); 
-            //Activates the new form
-            controlsMenu.Show(); 
-        }
-        #endregion
-
         #region Select-All
 
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
@@ -289,6 +278,7 @@ namespace LightPad
         private void normalToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
+            //Used as a test
             MessageBox.Show("Test", "Test");
         }
         #endregion
@@ -447,14 +437,6 @@ namespace LightPad
         }
         #endregion
 
-        #region Test-Menu
-        private void newMenuToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var NewMenu = new FileMenu();
-            NewMenu.Show();
-        }
-        #endregion
-
         #region Test
         private void ToolBar()
         {
@@ -466,13 +448,14 @@ namespace LightPad
         private void wordCountToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string WordCount = TextBox.Text;
+            //Inlcudes spaces within the text
             char[] seperator = {' '};
                 int WordsCounted = WordCount.Split(seperator, StringSplitOptions.RemoveEmptyEntries).Length;
-                WordsLbl.Text = WordsCounted.ToString();
+            //Converts the int into string
+            WordsLbl.Text = WordsCounted.ToString();
                 {
-                    {
-                        WordsLbl.ForeColor = Color.Black; //Changes the colour to black
-                    }
+                //Changes the colour to black 
+                WordsLbl.ForeColor = Color.Black;   
                 }
         }
         #endregion
@@ -481,11 +464,12 @@ namespace LightPad
 
         private void gitHubToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var GitHub = MessageBox.Show("Make sure you check out my GitHub Projects (:",
+            var GitHub = MessageBox.Show("Make sure you check out my GitHub Projects",
                 "GitHub", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             {
                 if(GitHub == DialogResult.OK)
                 {
+                    //Links it to the web page
                     Process.Start("https://github.com/gulam101");
                 }
             }
@@ -497,7 +481,8 @@ namespace LightPad
         #region Find-Next
         private void findNextToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            int returnValue = 0; //Return value is set to false
+            //Return value is set to false
+            int returnValue = 0; 
 
             //specifices the string location
             if (Text.Length > 0 && StartPosition >= 0)
@@ -507,7 +492,8 @@ namespace LightPad
 
                 if(indexToText >= 0) 
                 {
-                    returnValue = indexToText; //Changes the colour to black
+                    //Changes the colour to black
+                    returnValue = indexToText; 
                 }
             }
         }
@@ -580,6 +566,7 @@ namespace LightPad
             {
                 if (LinkedIn == DialogResult.OK)
                 {
+                    //Links to my LinkedIn page
                     Process.Start("https://www.linkedin.com/in/gulam-qasim-8a8b0816b/");
                 }
             }
@@ -599,7 +586,22 @@ namespace LightPad
         #region Search-Cmd
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Bold);
+            bool shouldBold;
+
+             void OnClick(EventArgs args)  
+            {
+                shouldBold = !shouldBold;
+
+                if (shouldBold == true)
+                {
+                    //Changes the font to bold
+                    TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Bold);
+                } else if (shouldBold == false)
+                {
+                    //Reverts back to the orginal font
+                    TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
+                }
+            };
         }
         #endregion
 
@@ -659,6 +661,7 @@ namespace LightPad
 
         }
 
+        #region darkmode
         private void DarkModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             bool CheckDarkMode = true;
@@ -671,16 +674,20 @@ namespace LightPad
                 TextBox.ForeColor = Color.White;
             } else if (CheckWhiteMode == true)
             {
+                //If clicked again then reverts back to the original
                 TextBox.BackColor = Color.White;
                 TextBox.ForeColor = Color.Black;
-            }
-            
+            }   
         }
+        #endregion
 
+        #region lightmode
         private void LightModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            //Changes back to original settings
             TextBox.BackColor = Color.White;
             TextBox.ForeColor = Color.DarkSlateGray;
         }
+        #endregion
     }
 }
