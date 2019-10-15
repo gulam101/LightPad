@@ -25,7 +25,7 @@ ________________________________________________________________________________
 * Fixed a rare bug within the file
 * Changed some information within the application.
 
-[Previous changes]
+[Previous Changes]
 + Changed the text colour in the word count from grey to black
 - Removed the paint feature
 + Added the word count button into the menu
@@ -45,14 +45,14 @@ ________________________________________________________________________________
 
 ________________________________________________________________________________________________________________________________________
 
-[Previous changes]
+[Previous Changes]
 * Fixed the font size dialog not showing
 - Removed the search word at the top
 - Removed the About section
 * Fixed the right click menu not correctly showing the options
 ________________________________________________________________________________________________________________________________________
 
-[Previous changes]
+[Previous Changes]
 * Fixed the mistake of the application not loading correctly
 - Removed the help menu
 - Removed the test menu
