@@ -17,6 +17,13 @@ ________________________________________________________________________________
 * Fixed repo
 * Corrected files
 * Corrected Readme
+* Corrected mistake when user clicked on GitHub but the title said "LinkedIn"
+* Corrected a few spelling mistakes
+* Adjusted a few features
+- Removed unused interfaces
+* Changes to documents are now shown in the location of the word count
+* Fixed a rare bug within the file
+* Changed some information within the application.
 
 [Previous changes]
 + Changed the text colour in the word count from grey to black
