@@ -5,7 +5,7 @@ The idea of the project was to make sure that the application could mimic the sa
 
 But ultimately, I decided that the application would just be a notepad clone and nothing else.
 
-During this design I learnt how to write cleaner code using C#. I also learnt about the access modifiers and what they could do to each class. I also made the code simple and refined it after every commit. I learnt more about the interfaces and how they actually work.
+During this design I learnt how to write cleaner code using C#. I also learnt about the access modifiers and what they could do to each class. I also made the code simple and refined it after every commit. I learned more about the interfaces and how they actually work.
 
 ________________________________________________________________________________________________________________________________________
 
