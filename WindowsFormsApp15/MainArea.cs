@@ -546,15 +546,8 @@ namespace LightPad
 
         #region GitHub
         private void gitHubToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            var GitHub = MessageBox.Show("Make sure you check out my GitHub Projects (:",
-                "GitHub", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
-            {
-                if (GitHub == DialogResult.OK)
-                {
-                    Process.Start("https://github.com/gulam101");
-                }
-            }
+        {        
+        Process.Start("https://github.com/gulam101");    
         }
         #endregion
 

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LightPad;
 
 namespace WindowsFormsApp15
 {
@@ -15,7 +16,7 @@ namespace WindowsFormsApp15
         public FileMenu()
         {
             InitializeComponent();
-        }
+        } 
 
         private void button7_Click(object sender, EventArgs e)
         {
@@ -40,20 +41,22 @@ namespace WindowsFormsApp15
 
         private void button8_Click(object sender, EventArgs e)
         {
-            this.Close(); //Stops the application from exiting
+            //Stops the application from exiting
+            Close(); 
         }
 
         public void button1_Click(object sender, EventArgs e)
         {
-            var newDocument = MessageBox.Show(                          //declares the variable
-                "Are you sure you want to create a new document?", //Displays the text
+            //declares the variable
+            var newDocument = MessageBox.Show(                          
+                "Are you sure you want to create a new document?",
                 "Are you sure", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Warning);
             //Adds information such as the yes/no button and the warning icon with two arguments
 
             if (newDocument == DialogResult.Yes)
             {
-//                SearchCmd.Clear();
+              //Clears the document
             }
         }
     }
