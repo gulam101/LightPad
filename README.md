@@ -11,8 +11,12 @@ During this design I learnt how to write cleaner code using C#. I also learnt ab
 ________________________________________________________________________________________________________________________________________
 
 [New Changes]
++ Added Darkmode
++ Added Lightmode
+* When making changes to document it will notify the user
 * Fixed repo
 * Corrected files
+* Corrected Readme
 
 [Previous changes]
 + Changed the text colour in the word count from grey to black
@@ -41,7 +45,7 @@ ________________________________________________________________________________
 * Fixed the right click menu not correctly showing the options
 ________________________________________________________________________________________________________________________________________
 
-[Previous chnages]
+[Previous changes]
 * Fixed the mistake of the application not loading correctly
 - Removed the help menu
 - Removed the test menu
