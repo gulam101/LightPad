@@ -6,8 +6,8 @@ The idea of the project was to make sure that the application could mimic the sa
 This project will have its own website built using HTML5, CSS3 and JavaScript ES6. I wanted to build one for the project so that if a user clicked on the website it would present the application as if the user was about to download.
 
 Planned features for next few builds:
-Better interfaces
-Improved performance
+* *Better interfaces
+* *Improved performance
 
 During this design I learnt how to write cleaner code using C#. I also learnt about the access modifiers and what they could do to each class. I also made the code simple and refined it after every commit. I learned more about the interfaces and how they actually work.
 
