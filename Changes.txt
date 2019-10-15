@@ -1,4 +1,5 @@
 [key]
+
 + Added
 
 * Fixed
@@ -36,7 +37,7 @@
 * Changed the text colour in the word count from grey to black
 - Removed the paint feature
 + Added the word count button into the menu
-* Fixed the printer button (haven't tested yet since I don't have a printer ): )
+* Fixed the printer button not working
 + Added a links button for my GitHub and LinkedIn
 - Removed the image button (Scrapped the idea)
 * Changed the save as short key to CTRL S
