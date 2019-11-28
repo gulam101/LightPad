@@ -42,3 +42,6 @@ C:\Users\Gulam\Documents\LightPad-master\Tests\obj\Debug\Tests.csproj.CoreCompil
 C:\Users\Gulam\Documents\LightPad-master\Tests\obj\Debug\Tests.csproj.CopyComplete
 C:\Users\Gulam\Documents\LightPad-master\Tests\obj\Debug\Tests.dll
 C:\Users\Gulam\Documents\LightPad-master\Tests\obj\Debug\Tests.pdb
+C:\Users\Gulam\Documents\LightPad-master\Tests\bin\Debug\WindowsFormsApp15.exe
+C:\Users\Gulam\Documents\LightPad-master\Tests\bin\Debug\WindowsFormsApp15.pdb
+C:\Users\Gulam\Documents\LightPad-master\Tests\bin\Debug\WindowsFormsApp15.exe.config

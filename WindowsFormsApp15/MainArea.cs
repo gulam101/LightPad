@@ -34,7 +34,8 @@ namespace LightPad
         private void exitMenuButton_Click(object sender, EventArgs e)
         {
             //Closes the application
-            Application.Exit();
+            //Application.Exit();
+            CloseCancel();
         }
         #endregion
 
@@ -647,19 +648,27 @@ namespace LightPad
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
-            CloseCancel();
+            if (CloseCancel() == false)
+            {
+                e.Cancel = true;
+            };
         }
 
-        public static void CloseCancel()
+        public static bool CloseCancel()
         {
-            const string message = "Are you sure that you would like to cancel the installer?";
-            const string caption = "Cancel Installer";
+            const string message = "Are you sure you want to exit the application? Any unsaved work will be lost!";
+            const string caption = "Exit application";
             var result = MessageBox.Show(message, caption,
-                              MessageBoxButtons.YesNo,
-                              MessageBoxIcon.Question);
+                                         MessageBoxButtons.YesNo,
+                                         MessageBoxIcon.Question);
 
-            e.Cancel = (result == DialogResult.No);
+            if (result == DialogResult.Yes)
+            {
+                return true;
+            } else
+            {
+                return false;
+            } 
         }
-
     }
 }

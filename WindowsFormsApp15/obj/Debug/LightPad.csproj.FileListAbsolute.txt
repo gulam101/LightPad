@@ -46,7 +46,6 @@ C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\WindowsFormsApp15\obj\D
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe.config
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.pdb
-C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csprojAssemblyReference.cache
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.FileMenu.resources
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.MainNotepadFrm.resources
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.Properties.Resources.resources
@@ -54,3 +53,12 @@ C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.cs
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csproj.CoreCompileInputs.cache
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.exe
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.pdb
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.Controls.dll
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.Controls.UI.Dialogs.dll
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.Controls.UI.dll
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.DirectX.dll
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.MediaFramework.dll
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.Shared.dll
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.Tools.dll
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.Types.dll
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csproj.CopyComplete
