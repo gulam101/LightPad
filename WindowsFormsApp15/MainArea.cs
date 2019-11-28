@@ -449,8 +449,8 @@ namespace LightPad
         {
             string WordCount = TextBox.Text;
             //Inlcudes spaces within the text
-            char[] seperator = {' '};
-                int WordsCounted = WordCount.Split(seperator, StringSplitOptions.RemoveEmptyEntries).Length;
+            char[] seperator = new char[] { ' ', '\n' };
+            int WordsCounted = WordCount.Split(seperator, StringSplitOptions.RemoveEmptyEntries).Length;
             //Converts the int into string
             WordsLbl.Text = WordsCounted.ToString();
                 {
@@ -626,26 +626,26 @@ namespace LightPad
         }
         #endregion
 
-        #region Search-Cmd-Undo
-        private void toolStripButton8_Click_1(object sender, EventArgs e)
+        #region Undo-Button-On-Menubar
+        private void toolMenuUndo(object sender, EventArgs e)
         {
             //Undo's the text in the box
             TextBox.Undo();
             //The option is disabled by default
-            undoToolStripMenuItem.Enabled = false;  
+            redoToolStripMenuItem.Enabled = false;
             //But when a user wants to undo then this option is enabled
-            redoToolStripMenuItem.Enabled = true;
+            undoToolStripMenuItem.Enabled = true;
         }
         #endregion
 
-        #region Search-Cmd-Redo
-        private void toolStripButton11_Click(object sender, EventArgs e)
+        #region Redo-Button-On-Menubar
+        private void toolMenuRedo(object sender, EventArgs e)
         {
             TextBox.Redo();
             //The option is disabled by default 
-            redoToolStripMenuItem.Enabled = false;
+            undoToolStripMenuItem.Enabled = false;
             //But when a user wants to redo this then option is enabled
-            undoToolStripMenuItem.Enabled = true; 
+            redoToolStripMenuItem.Enabled = true; 
         }
         #endregion
 
@@ -654,7 +654,7 @@ namespace LightPad
 
         }
 
-        #region darkmode
+        #region Dark mode
         private void DarkModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             bool CheckDarkMode = true;
@@ -663,7 +663,7 @@ namespace LightPad
             if(CheckDarkMode == true)
             {
                 //Creates a darkmode
-                TextBox.BackColor = Color.DarkSlateGray;
+                TextBox.BackColor = Color.Black;
                 TextBox.ForeColor = Color.White;
             } else if (CheckWhiteMode == true)
             {
@@ -674,7 +674,7 @@ namespace LightPad
         }
         #endregion
 
-        #region lightmode
+        #region Light Mode
         private void LightModeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Changes back to original settings

@@ -477,7 +477,7 @@
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // newFolderCmd
+            // New FolderCmd (Needs Changing)
             // 
             this.newFolderCmd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.newFolderCmd.Image = ((System.Drawing.Image)(resources.GetObject("newFolderCmd.Image")));
@@ -487,7 +487,7 @@
             this.newFolderCmd.Text = "Open Document";
             this.newFolderCmd.Click += new System.EventHandler(this.newFolderCmd_Click);
             // 
-            // NewDoc
+            // New Document
             // 
             this.NewDoc.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.NewDoc.Image = ((System.Drawing.Image)(resources.GetObject("NewDoc.Image")));
@@ -497,7 +497,7 @@
             this.NewDoc.Text = "New Document";
             this.NewDoc.Click += new System.EventHandler(this.NewDoc_Click);
             // 
-            // cmdPrint
+            // cmd Print (Needs Changing)
             // 
             this.cmdPrint.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.cmdPrint.Image = ((System.Drawing.Image)(resources.GetObject("cmdPrint.Image")));
@@ -507,7 +507,7 @@
             this.cmdPrint.Text = "Print";
             this.cmdPrint.Click += new System.EventHandler(this.cmdPrint_Click);
             // 
-            // toolStripButton2
+            // Save As
             // 
             this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
@@ -517,7 +517,7 @@
             this.toolStripButton2.Text = "Save As";
             this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
-            // toolStripButton4
+            // Save
             // 
             this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
@@ -532,17 +532,17 @@
             this.toolStripSeparator.Name = "toolStripSeparator";
             this.toolStripSeparator.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripButton9
+            // Font Size
             // 
             this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
             this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton9.Name = "toolStripButton9";
             this.toolStripButton9.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton9.Text = "Font SIze";
+            this.toolStripButton9.Text = "Font Size";
             this.toolStripButton9.Click += new System.EventHandler(this.toolStripButton9_Click);
             // 
-            // toolStripButton10
+            // Font Colour
             // 
             this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
@@ -562,7 +562,7 @@
             this.cmdCut.Text = "Cut";
             this.cmdCut.Click += new System.EventHandler(this.toolStripButton7_Click);
             // 
-            // toolStripButton1
+            // Bold
             // 
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
@@ -572,7 +572,7 @@
             this.toolStripButton1.Text = "Bold";
             this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
-            // toolStripButton3
+            // Italic
             // 
             this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
@@ -582,7 +582,7 @@
             this.toolStripButton3.Text = "Italic";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
-            // toolStripButton5
+            // Normal Font
             // 
             this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
@@ -592,7 +592,7 @@
             this.toolStripButton5.Text = "Normal";
             this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
-            // toolStripButton6
+            // Strike Through
             // 
             this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
@@ -602,7 +602,7 @@
             this.toolStripButton6.Text = "Strike Through";
             this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
-            // toolStripButton7
+            // Underline
             // 
             this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton7.Image")));
@@ -617,7 +617,7 @@
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripButton8
+            // undoToolStripMenuItem
             // 
             this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
@@ -625,9 +625,9 @@
             this.toolStripButton8.Name = "toolStripButton8";
             this.toolStripButton8.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton8.Text = "Undo";
-            this.toolStripButton8.Click += new System.EventHandler(this.toolStripButton8_Click_1);
+            this.toolStripButton8.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
             // 
-            // toolStripButton11
+            // redoToolStripMenuItem
             // 
             this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
@@ -635,7 +635,7 @@
             this.toolStripButton11.Name = "toolStripButton11";
             this.toolStripButton11.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton11.Text = "Redo";
-            this.toolStripButton11.Click += new System.EventHandler(this.toolStripButton11_Click);
+            this.toolStripButton11.Click += new System.EventHandler(this.redoToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
