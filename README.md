@@ -14,6 +14,17 @@ During this design I learnt how to write cleaner code using C#. I also learnt ab
 ________________________________________________________________________________________________________________________________________
 
 [New Changes]
+* Fixed word count not counting words after a new line was created
+* Fixed when hovering over the "Font Size" button, it would show the highlighted text as "Font SIze"
+* Changed the colour of dark mode to a darker colour
+* Corrected changes in the document
+* Corrected changes in the application
+* Fixed mistakes in the document
+- Removed unused file
+
+________________________________________________________________________________________________________________________________________
+
+[Previous Changes]
 +	Added Darkmode
 +	Added Lightmode
 *	When making changes to document it will notify the user
