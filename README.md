@@ -14,6 +14,7 @@ During this design I learnt how to write cleaner code using C#. I also learnt ab
 ________________________________________________________________________________________________________________________________________
 
 [New Changes]
++ Added confirmation box when user exits the application
 * Fixed word count not counting words after a new line was created
 * Fixed when hovering over the "Font Size" button, it would show the highlighted text as "Font SIze"
 * Changed the colour of dark mode to a darker colour
