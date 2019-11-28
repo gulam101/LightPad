@@ -12,6 +12,7 @@ using LightPad;
 using System.Diagnostics;
 using WindowsFormsApp15;
 
+
 namespace LightPad
 {
     public partial class MainNotepadFrm : Form
@@ -20,6 +21,8 @@ namespace LightPad
         int start;
 
         public bool WordWrap { get; set; }
+        //public static bool Cancel { get; private set; }
+
         //end
 
         public MainNotepadFrm()
@@ -28,7 +31,7 @@ namespace LightPad
         }
 
         #region Exit-Application
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exitMenuButton_Click(object sender, EventArgs e)
         {
             //Closes the application
             Application.Exit();
@@ -636,5 +639,27 @@ namespace LightPad
             TextBox.ForeColor = Color.DarkSlateGray;
         }
         #endregion
+
+        private void ToolSaveButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            CloseCancel();
+        }
+
+        public static void CloseCancel()
+        {
+            const string message = "Are you sure that you would like to cancel the installer?";
+            const string caption = "Cancel Installer";
+            var result = MessageBox.Show(message, caption,
+                              MessageBoxButtons.YesNo,
+                              MessageBoxIcon.Question);
+
+            e.Cancel = (result == DialogResult.No);
+        }
+
     }
 }
