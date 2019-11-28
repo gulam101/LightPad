@@ -43,3 +43,14 @@ C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\WindowsFormsApp15\obj\D
 C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csproj.CoreCompileInputs.cache
 C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.exe
 C:\Users\Gulam\Downloads\LightPad-master\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.pdb
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe.config
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.exe
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\WindowsFormsApp15.pdb
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csprojAssemblyReference.cache
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.FileMenu.resources
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.MainNotepadFrm.resources
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.Properties.Resources.resources
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csproj.GenerateResource.cache
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csproj.CoreCompileInputs.cache
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.exe
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\WindowsFormsApp15.pdb

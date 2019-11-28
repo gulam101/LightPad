@@ -348,38 +348,6 @@ namespace LightPad
         }
         #endregion
 
-        #region Unfinished
-
-        private void toolStripButton8_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Sorry this feature is not yet avaliable, please try again later",
-                "Please try again later!",
-                MessageBoxButtons.AbortRetryIgnore,
-                MessageBoxIcon.Warning);
-        }
-
-        #endregion
-
-        #region Insert-New-Document
-
-        private void insertNewDocumentToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var InsertNewDocument = MessageBox.Show("Sorry this feature is not yet avaliable, please try again later",
-                   "Please try again later!",
-                   MessageBoxButtons.AbortRetryIgnore,
-                   MessageBoxIcon.Warning);
-
-            if (InsertNewDocument == DialogResult.Retry)
-            {
-                MessageBox.Show("LightPad tried to retry again but failed",
-                "Sorry it still doesn't work",
-                MessageBoxButtons.AbortRetryIgnore,
-                MessageBoxIcon.Warning);
-            }
-
-        }
-        #endregion
-
         #region Date-And-Time
         private void dateTimeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -437,26 +405,17 @@ namespace LightPad
         }
         #endregion
 
-        #region Test
-        private void ToolBar()
-        {
-            //ToolBar.TextAlign = System.Windows.Forms.ToolBarTextAlign.Right;
-        }
-        #endregion
-
-        #region Word-Count
+        #region Word Count
         private void wordCountToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string WordCount = TextBox.Text;
             //Inlcudes spaces within the text
-            char[] seperator = new char[] { ' ', '\n' };
+            char[] seperator = new char[] { ' ', '\n', '\r' };
             int WordsCounted = WordCount.Split(seperator, StringSplitOptions.RemoveEmptyEntries).Length;
             //Converts the int into string
             WordsLbl.Text = WordsCounted.ToString();
-                {
-                //Changes the colour to black 
-                WordsLbl.ForeColor = Color.Black;   
-                }
+            //Changes the colour to black 
+            WordsLbl.ForeColor = Color.Black;   
         }
         #endregion
 
@@ -566,7 +525,7 @@ namespace LightPad
         }
         #endregion
 
-        #region Printer-Icon
+        #region Printer Menu Icon
         private void cmdPrint_Click(object sender, EventArgs e)
         {
             PrintDialog Printer = new PrintDialog();
@@ -648,11 +607,6 @@ namespace LightPad
             redoToolStripMenuItem.Enabled = true; 
         }
         #endregion
-
-        private void ToolStripButton4_Click(object sender, EventArgs e)
-        {
-
-        }
 
         #region Dark mode
         private void DarkModeToolStripMenuItem_Click(object sender, EventArgs e)
