@@ -8,6 +8,7 @@ This document contains all the updates from the previous builds. Changes are now
 
 
 [New Changes]
++ Added confirmation box when user exits the application
 * Fixed word count not counting words after a new line was created
 * Fixed when hovering over the "Font Size" button, it would show the highlighted text as "Font SIze"
 * Changed the colour of dark mode to a darker colour
