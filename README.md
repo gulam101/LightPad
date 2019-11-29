@@ -20,7 +20,6 @@ ________________________________________________________________________________
 * Changed the colour of dark mode to a darker colour
 * Corrected changes in the document
 * Corrected changes in the application
-* Fixed mistakes in the document
 - Removed unused file
 
 ________________________________________________________________________________________________________________________________________
