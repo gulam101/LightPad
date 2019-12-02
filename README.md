@@ -2,8 +2,7 @@
 The project was designed so that the user can create a document and then they could add information.
 
 The idea of the project was to make sure that the application could mimic the same features as notepad. Originally, I was going to design the application so that it could support importing images and I was going to use the Microsoft Word toolbar layout which would blend features between notepad and word.
-
-This project will have its own website built using HTML5, CSS3 and JavaScript ES6. I wanted to build one for the project so that if a user clicked on the website it would present the application as if the user was about to download.
+d.
 
 Planned features for next few builds:
 * *Better interfaces*
