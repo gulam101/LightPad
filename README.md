@@ -10,7 +10,7 @@ Planned features for next few builds:
 * *Improved performance*
 
 
-* *What I learnt*
+** *What I learnt*
 
 When I created this project I was new to C#. I leanrt a lot of new things that I can use for any project. I learnt how to maintain the code and make it easier to read so that if I come back later I could understand what the code does. I managed to develop my knowledge on some simple shortcuts that would reduce the time for development. I also started planning what I would do using Trello board. Using Trello board made planning simple and easy to follow what I was going to fix/add for this project.
 
