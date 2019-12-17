@@ -1,4 +1,4 @@
-# LightPad
+LightPad
 
 Lightpad allows the user to create documents and store information which they can retrive later. Documents can be edited at any time.
 
@@ -30,8 +30,8 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________________________
 
 [Previous Changes]
-+	Added Darkmode
-+	Added Lightmode
++	Added Dark mode
++	Added Light mode
 *	When making changes to document it will notify the user
 *	Fixed repo
 *	Corrected files
