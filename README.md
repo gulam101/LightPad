@@ -12,9 +12,14 @@ Planned features for next few builds:
 
 **What I learnt**
 
-When I created this project I was new to C#. I leanrt a lot of new things that I can use for any project. I learnt how to maintain the code and make it easier to read so that if I come back later I could understand what the code does. I managed to develop my knowledge on some simple shortcuts that would reduce the time for development. I also started planning what I would do using Trello board. Using Trello board made planning simple and easy to follow what I was going to fix/add for this project.
-
-During this design I learnt how to write cleaner code using C#. I also learnt about the access modifiers and what they could do to each class. I also made the code simple and refined it after every commit. I learned more about the interfaces and how they actually work.
+*Better planning using Trello board*
+*Placing comments in the application"
+*Using keyboard shotcuts to reduce development time*
+*Writing cleaner code*
+*How to increase performance*
+*How to use GitHub properly*
+*How to track GitHub changes*
+*Hot to revert back to original changes in GitHub*
 
 ________________________________________________________________________________________________________________________________________
 
