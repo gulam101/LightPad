@@ -25,7 +25,7 @@ ________________________________________________________________________________
 * Corrected changes in the document
 * Corrected changes in the application
 * Fixed the quick save button + changed the icon
-* Moved the links button into "Extra" tav
+* Moved the links button into "Extra" tab
 - Removed unused file
 - Removed links tab from menu
 ________________________________________________________________________________________________________________________________________
