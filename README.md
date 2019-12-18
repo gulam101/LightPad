@@ -68,17 +68,16 @@ ________________________________________
 [Previous Changes]
 
 *	Fixed the font size dialog not showing
+*	Fixed the right click menu not correctly showing the options
 -	Removed the search word at the top
 -	Removed the About section
-*	Fixed the right click menu not correctly showing the options
 ________________________________________
 
 [Previous Changes]
-
-*	Fixed the mistake of the application not loading correctly
--	Removed the help menu
--	Removed the test menu
-*	Fixed the save and save as button not saving documents
-*	Fixed the open file not opening the correct files
 +	Added word count
 +	Added two new options in the right click menu
+*	Fixed the mistake of the application not loading correctly
+*	Fixed the save and save as button not saving documents
+*	Fixed the open file not opening the correct files
+-	Removed the help menu
+-	Removed the test menu
