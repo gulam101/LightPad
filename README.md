@@ -1,6 +1,4 @@
-LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
-
-The idea of the project was to make sure that the application could mimic the same features as notepad. Originally, I was going to design the application so that it could support importing images and I was going to use the Microsoft Word toolbar layout which would blend features between notepad and word.
+Description: LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
 
 Planned features for next few builds:
 * *Better interfaces*
@@ -8,14 +6,14 @@ Planned features for next few builds:
 
 **What I learnt**
 
-*Better planning using Trello board*
-*Placing comments in the application"
-*Using keyboard shotcuts to reduce development time*
-*Writing cleaner code*
-*How to increase performance*
-*How to use GitHub properly*
-*How to track GitHub changes*
-*Hot to revert back to original changes in GitHub*
+Better planning using Trello board
+Placing comments in the application
+Using keyboard shotcuts to reduce development time
+Writing cleaner code
+How to increase performance
+How to use GitHub properly
+How to track GitHub changes
+Hot to revert back to original changes in GitHub
 
 ________________________________________________________________________________________________________________________________________
 
