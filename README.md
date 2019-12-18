@@ -1,6 +1,6 @@
 Description: LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
 
-<img src="https://1drv.ms/w/s!AjDg6m2l3defx1vK_" height="400" width="200">
+<img src="https://ibb.co/2hwfddG" height="400" width="200">
 
 Planned features for next few builds:
 * *Better interfaces*
