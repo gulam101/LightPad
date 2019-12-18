@@ -1,15 +1,19 @@
-# LightPad
-The project was designed so that the user can create a document and then they could add information.
-
-The idea of the project was to make sure that the application could mimic the same features as notepad. Originally, I was going to design the application so that it could support importing images and I was going to use the Microsoft Word toolbar layout which would blend features between notepad and word.
-
-This project will have its own website built using HTML5, CSS3 and JavaScript ES6. I wanted to build one for the project so that if a user clicked on the website it would present the application as if the user was about to download.
+Description: LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
 
 Planned features for next few builds:
 * *Better interfaces*
-* *Improved performance*
 
-During this design I learnt how to write cleaner code using C#. I also learnt about the access modifiers and what they could do to each class. I also made the code simple and refined it after every commit. I learned more about the interfaces and how they actually work.
+
+**What I learnt**
+
+Better planning using Trello board
+Placing comments in the application
+Using keyboard shotcuts to reduce development time
+Writing cleaner code
+How to increase performance
+How to use GitHub properly
+How to track GitHub changes
+Hot to revert back to original changes in GitHub
 
 ________________________________________________________________________________________________________________________________________
 
@@ -20,14 +24,13 @@ ________________________________________________________________________________
 * Changed the colour of dark mode to a darker colour
 * Corrected changes in the document
 * Corrected changes in the application
-* Fixed mistakes in the document
 - Removed unused file
 
 ________________________________________________________________________________________________________________________________________
 
 [Previous Changes]
-+	Added Darkmode
-+	Added Lightmode
++	Added Dark mode
++	Added Light mode
 *	When making changes to document it will notify the user
 *	Fixed repo
 *	Corrected files
