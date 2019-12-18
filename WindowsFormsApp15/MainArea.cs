@@ -245,28 +245,11 @@ namespace LightPad
         #region SaveAs
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string documentSaved = "Document saved successfully!";
-            string documentNotSaved = "Document has not saved!";
-
-            //Casts into BOOl
-            bool save = bool.Parse(documentSaved);
-            bool notSaved = bool.Parse(documentNotSaved);
-
-            if(save == true)
-            {
-                SaveFileDialog sv = new SaveFileDialog();
-                sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
-                    if (sv.ShowDialog() == DialogResult.OK)
-                        TextBox.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
-                        Text = sv.FileName;
-                //WordsLbl.Text = documentNotSaved;
-                MessageBox.Show("Test", "Test");
-
-            } else if (notSaved == true)
-            {
-                //WordsLbl.Text = documentNotSaved;
-                MessageBox.Show("Test", "Test");
-            }
+          SaveFileDialog sv = new SaveFileDialog();
+            sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
+                if (sv.ShowDialog() == DialogResult.OK)
+                   TextBox.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
+                   Text = sv.FileName;
         }
         #endregion
 
@@ -355,7 +338,7 @@ namespace LightPad
             sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
             if (sv.ShowDialog() == DialogResult.OK)
                 TextBox.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
-            this.Text = sv.FileName;
+            Text = sv.FileName;
         }
         #endregion
 

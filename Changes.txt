@@ -13,6 +13,8 @@ This document contains all the updates from the previous builds. Changes are now
 * Renamed light mode into "normal mode"
 * Fixed word count not counting words after a new line was created
 * Fixed when hovering over the "Font Size" button, it would show the highlighted text as "Font SIze"
+* Fixed save not working correctly
+* Changed Icon for quick save
 * Changed the colour of dark mode to a darker colour
 * Corrected changes in the document
 * Corrected changes in the application
