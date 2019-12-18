@@ -506,18 +506,6 @@ namespace LightPad
         }
         #endregion
 
-        #region GitHub
-       
-        #endregion
-
-        #region LinkedIn
-        private void linkedInToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
-        #endregion
-
         #region Printer Menu Icon
         private void cmdPrint_Click(object sender, EventArgs e)
         {
