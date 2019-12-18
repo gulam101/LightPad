@@ -24,6 +24,7 @@ ________________________________________________________________________________
 * Changed the colour of dark mode to a darker colour
 * Corrected changes in the document
 * Corrected changes in the application
+* Fixed the quick save button + changed the icon
 - Removed unused file
 
 ________________________________________________________________________________________________________________________________________
