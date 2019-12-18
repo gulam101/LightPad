@@ -25,8 +25,9 @@ ________________________________________________________________________________
 * Corrected changes in the document
 * Corrected changes in the application
 * Fixed the quick save button + changed the icon
+* Moved the links button into "Extra" tav
 - Removed unused file
-
+- Removed links tab from menu
 ________________________________________________________________________________________________________________________________________
 
 [Previous Changes]
@@ -46,27 +47,25 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________________________
 
 [Previous Changes]
-
-*	Changed the text colour in the word count from grey to black
--	Removed the paint feature
++	Added new menu items in the right click menu
++	Added a 'links' button for my GitHub and LinkedIn
 +	Added the word count button into the menu
 *	Fixed the printer button
-+	Added a 'links' button for my GitHub and LinkedIn
--	Removed the image button (Scrapped the idea)
+*	Changed the text colour in the word count from grey to black
 *	Changed the save as short key to CTRL S
--	Removed the word wrap (Scrapped the idea)
 *	Fixed the two buttons in the menu. They now display the font text and the font size
 *	Corrected the images for both font text and font size
 *	Adjusted the menu and added in new icons
--	Removed the insert new document tab (Scrapped idea or will use for a new project)
 *	The menu was getting untidy, so I added a borderline that splits the controls into different sections
 *	Application will now start in the centre of the screen instead of the top left corner
 -	Removed the new document from the right click menu
-+	Added new menu items in the right click menu
+-	Removed the image button
+-	Removed the word wrap
+-	Removed the paint feature
+-	Removed the insert new document tab
 ________________________________________
 
 [Previous Changes]
-
 *	Fixed the font size dialog not showing
 *	Fixed the right click menu not correctly showing the options
 -	Removed the search word at the top
