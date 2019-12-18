@@ -25,17 +25,25 @@ namespace LightPad
 
         //end
 
+        public class DoubleClickButton : Button
+        {
+            public DoubleClickButton()
+            {
+                SetStyle(ControlStyles.StandardClick | ControlStyles.StandardDoubleClick, true);
+            }
+        }
+
         public MainNotepadFrm()
         {
             InitializeComponent();
+            //FontToolButton_Click.DoubleClick += new EventHandler(FontToolButton_Click);
         }
 
         #region Exit-Application
         private void exitMenuButton_Click(object sender, EventArgs e)
         {
-            //Closes the application
-            //Application.Exit();
-            CloseCancel();
+            //Exits application using the button in the menu
+            Application.Exit();
         }
         #endregion
 
@@ -120,7 +128,7 @@ namespace LightPad
             //Creates a var and assigns it a value 
             if (op.ShowDialog() == DialogResult.OK)
                 TextBox.LoadFile(op.FileName, RichTextBoxStreamType.PlainText);
-            this.Text = op.FileName;
+                Text = op.FileName;
         }
         #endregion
 
@@ -303,11 +311,10 @@ namespace LightPad
         }
         #endregion
 
-        #region NewFolder
-        private void newFolderCmd_Click(object sender, EventArgs e)
+        #region Open Document
+        private void openDocumentRichTextBox_Click(object sender, EventArgs e)
         {
             OpenFileDialog NewFolder = new OpenFileDialog();
-            //Creates a var and assigns it a value 
                 NewFolder.Title = "Open";
                 NewFolder.Filter = "txt files(*.txt)|*.txt|All files(*.*)|*.* ";
             if (NewFolder.ShowDialog() == DialogResult.OK)
@@ -336,7 +343,7 @@ namespace LightPad
 
             if (newDocument == DialogResult.Yes)
             {
-                TextBox.Clear();
+                Application.Restart();
             }
         }
         #endregion
@@ -388,14 +395,6 @@ namespace LightPad
             Select();
         }
 
-        #endregion
-
-        #region Error
-        private void toolStripTextBox1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Sorry about that, this feature is not avalible", "Sorry about that",
-            MessageBoxButtons.OK, MessageBoxIcon.Stop);    
-        }
         #endregion
 
         #region Font-Size
@@ -508,24 +507,14 @@ namespace LightPad
         #endregion
 
         #region GitHub
-        private void gitHubToolStripMenuItem1_Click(object sender, EventArgs e)
-        {        
-        Process.Start("https://github.com/gulam101");    
-        }
+       
         #endregion
 
         #region LinkedIn
         private void linkedInToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            var LinkedIn = MessageBox.Show("Make sure you check out my LinkedIn and follow me",
-               "LinkedIn", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
-            {
-                if (LinkedIn == DialogResult.OK)
-                {
-                    //Links to my LinkedIn page
-                    Process.Start("https://www.linkedin.com/in/gulam-qasim-8a8b0816b/");
-                }
-            }
+            
+            
         }
         #endregion
 
@@ -539,32 +528,35 @@ namespace LightPad
         }
         #endregion
 
-        #region Search-Cmd
-        private void toolStripButton1_Click(object sender, EventArgs e)
+        #region BoldMenuTab
+        private void menuBoldFont_Click(object sender, EventArgs e)
         {
-            bool shouldBold;
+            bool boldText = false;
 
              void OnClick(EventArgs args)  
             {
-                shouldBold = !shouldBold;
+                //boldText = !boldText;
 
-                if (shouldBold == true)
+                if (boldText == true)
                 {
                     //Changes the font to bold
                     TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Bold);
-                } else if (shouldBold == false)
+                } else if (boldText == false)
                 {
                     //Reverts back to the orginal font
                     TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
+
                 }
             };
         }
         #endregion
 
         #region Font-Italic
-        private void toolStripButton3_Click(object sender, EventArgs e)
+        private void FontToolButton_Click(object sender, EventArgs e)
         {
-            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Italic);
+            //TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Italic);
+
+           
         }
         #endregion
 
@@ -612,40 +604,12 @@ namespace LightPad
         }
         #endregion
 
-        #region Dark mode
-        private void DarkModeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            bool CheckDarkMode = true;
-            bool CheckWhiteMode = true;
-
-            if(CheckDarkMode == true)
-            {
-                //Creates a darkmode
-                TextBox.BackColor = Color.Black;
-                TextBox.ForeColor = Color.White;
-            } else if (CheckWhiteMode == true)
-            {
-                //If clicked again then reverts back to the original
-                TextBox.BackColor = Color.White;
-                TextBox.ForeColor = Color.Black;
-            }   
-        }
-        #endregion
-
-        #region Light Mode
-        private void LightModeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //Changes back to original settings
-            TextBox.BackColor = Color.White;
-            TextBox.ForeColor = Color.DarkSlateGray;
-        }
-        #endregion
-
         private void ToolSaveButton_Click(object sender, EventArgs e)
         {
 
         }
 
+        #region ExitApplication
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             if (CloseCancel() == false)
@@ -669,6 +633,48 @@ namespace LightPad
             {
                 return false;
             } 
+        }
+        #endregion
+
+        #region Dark mode
+        private void DarkModeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            bool CheckDarkMode = true;
+            bool CheckWhiteMode = true;
+
+            if (CheckDarkMode == true)
+            {
+                //Creates a darkmode
+                TextBox.BackColor = Color.Black;
+                TextBox.ForeColor = Color.White;
+            }
+            else if (CheckWhiteMode == true)
+            {
+                //If clicked again then reverts back to the original
+                TextBox.BackColor = Color.White;
+                TextBox.ForeColor = Color.Black;
+            }
+        }
+        #endregion
+
+        #region Light Mode
+        private void NormalModeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Changes back to original settings
+            TextBox.BackColor = Color.White;
+            TextBox.ForeColor = Color.DarkSlateGray;
+        }
+        #endregion
+
+        private void LinkedInToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           //Links to my LinkedIn page
+           Process.Start("https://www.linkedin.com/in/gulam-qasim-8a8b0816b/");
+        }
+        private void GitHubToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Loads the default browser links to my GitHub Page
+           Process.Start("https://github.com/gulam101");
         }
     }
 }

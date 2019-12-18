@@ -9,18 +9,20 @@ This document contains all the updates from the previous builds. Changes are now
 
 [New Changes]
 + Added confirmation box when user exits the application
+* Moved dark mode into the format tab
+* Renamed light mode into "normal mode"
 * Fixed word count not counting words after a new line was created
 * Fixed when hovering over the "Font Size" button, it would show the highlighted text as "Font SIze"
 * Changed the colour of dark mode to a darker colour
 * Corrected changes in the document
 * Corrected changes in the application
-* Fixed mistakes in the document
 - Removed unused file
+
  
 
 [Previous Changes]
-+ Added Dark Mode
-+ Light Mode have been added
++ Added dark dode
++ light mode have been added
 * When making changes to document it will notify the user
 * Fixed Repo
 * Corrected files

@@ -62,3 +62,4 @@ C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.Tools.dll
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\bin\Debug\VisioForge.Types.dll
 C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csproj.CopyComplete
+C:\Users\Gulam\Documents\LightPad-master\WindowsFormsApp15\obj\Debug\LightPad.csprojAssemblyReference.cache

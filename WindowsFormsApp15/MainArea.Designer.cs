@@ -32,14 +32,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainNotepadFrm));
             this.TextBox = new System.Windows.Forms.RichTextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionMenuFile = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveAsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionsMenuEdit = new System.Windows.Forms.ToolStripMenuItem();
             this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.redoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,7 +48,7 @@
             this.findToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.findNextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.formatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionMenuFormat = new System.Windows.Forms.ToolStripMenuItem();
             this.fontColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fontSizeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.fontColourToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,32 +59,35 @@
             this.strikeThroughToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTimeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.wordCountToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.darkModeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.normalModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionsMenuAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.authorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.linkedInToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.gitHubToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionMenuLinks = new System.Windows.Forms.ToolStripMenuItem();
             this.gitHubToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.linkedInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.darkModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lightModeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.newFolderCmd = new System.Windows.Forms.ToolStripButton();
-            this.NewDoc = new System.Windows.Forms.ToolStripButton();
-            this.cmdPrint = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.menuBarOpenFolder = new System.Windows.Forms.ToolStripButton();
+            this.newDocument = new System.Windows.Forms.ToolStripButton();
+            this.richTextBoxPrint = new System.Windows.Forms.ToolStripButton();
+            this.menuSaveAsButton = new System.Windows.Forms.ToolStripButton();
+            this.menuQuickSaveButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
-            this.cmdCut = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
+            this.richTextBoxFontSize = new System.Windows.Forms.ToolStripButton();
+            this.richTextBoxColouredFont = new System.Windows.Forms.ToolStripButton();
+            this.richTextBoxCut = new System.Windows.Forms.ToolStripButton();
+            this.boldFont = new System.Windows.Forms.ToolStripButton();
+            this.italicFont = new System.Windows.Forms.ToolStripButton();
+            this.normalFont = new System.Windows.Forms.ToolStripButton();
+            this.richTextBoxStrikeThrough = new System.Windows.Forms.ToolStripButton();
+            this.RichTextBoxUnderlined = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
+            this.menuBarUndo = new System.Windows.Forms.ToolStripButton();
+            this.menuBarRedo = new System.Windows.Forms.ToolStripButton();
             this.helpProvider1 = new System.Windows.Forms.HelpProvider();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -116,31 +119,30 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem,
-            this.editToolStripMenuItem,
-            this.formatToolStripMenuItem,
-            this.aboutToolStripMenuItem,
-            this.linksToolStripMenuItem,
-            this.modeToolStripMenuItem});
+            this.optionMenuFile,
+            this.optionsMenuEdit,
+            this.optionMenuFormat,
+            this.optionsMenuAbout,
+            this.optionMenuLinks});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1200, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // fileToolStripMenuItem
+            // optionMenuFile
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.optionMenuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newToolStripMenuItem,
             this.openToolStripMenuItem,
             this.saveToolStripMenuItem,
             this.saveAsToolStripMenuItem,
             this.printToolStripMenuItem,
             this.exitToolStripMenuItem});
-            this.fileToolStripMenuItem.Image = global::WindowsFormsApp15.Properties.Resources.Settings_icon;
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.fileToolStripMenuItem.Text = "File";
+            this.optionMenuFile.Image = global::WindowsFormsApp15.Properties.Resources.Settings_icon;
+            this.optionMenuFile.Name = "optionMenuFile";
+            this.optionMenuFile.Size = new System.Drawing.Size(53, 20);
+            this.optionMenuFile.Text = "File";
             // 
             // newToolStripMenuItem
             // 
@@ -196,9 +198,9 @@
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitMenuButton_Click);
             // 
-            // editToolStripMenuItem
+            // optionsMenuEdit
             // 
-            this.editToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.optionsMenuEdit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.undoToolStripMenuItem,
             this.redoToolStripMenuItem,
             this.cutToolStripMenuItem,
@@ -207,10 +209,10 @@
             this.findToolStripMenuItem,
             this.findNextToolStripMenuItem,
             this.selectAllToolStripMenuItem});
-            this.editToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("editToolStripMenuItem.Image")));
-            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
-            this.editToolStripMenuItem.Text = "Edit";
+            this.optionsMenuEdit.Image = ((System.Drawing.Image)(resources.GetObject("optionsMenuEdit.Image")));
+            this.optionsMenuEdit.Name = "optionsMenuEdit";
+            this.optionsMenuEdit.Size = new System.Drawing.Size(55, 20);
+            this.optionsMenuEdit.Text = "Edit";
             // 
             // undoToolStripMenuItem
             // 
@@ -282,16 +284,17 @@
             this.selectAllToolStripMenuItem.Text = "Select All";
             this.selectAllToolStripMenuItem.Click += new System.EventHandler(this.selectAllToolStripMenuItem_Click);
             // 
-            // formatToolStripMenuItem
+            // optionMenuFormat
             // 
-            this.formatToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.optionMenuFormat.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fontColorToolStripMenuItem,
             this.dateTimeToolStripMenuItem,
-            this.wordCountToolStripMenuItem1});
-            this.formatToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("formatToolStripMenuItem.Image")));
-            this.formatToolStripMenuItem.Name = "formatToolStripMenuItem";
-            this.formatToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.formatToolStripMenuItem.Text = "Format";
+            this.wordCountToolStripMenuItem1,
+            this.modeToolStripMenuItem});
+            this.optionMenuFormat.Image = ((System.Drawing.Image)(resources.GetObject("optionMenuFormat.Image")));
+            this.optionMenuFormat.Name = "optionMenuFormat";
+            this.optionMenuFormat.Size = new System.Drawing.Size(73, 20);
+            this.optionMenuFormat.Text = "Format";
             // 
             // fontColorToolStripMenuItem
             // 
@@ -384,254 +387,255 @@
             this.wordCountToolStripMenuItem1.Text = "Word Count";
             this.wordCountToolStripMenuItem1.Click += new System.EventHandler(this.wordCountToolStripMenuItem1_Click);
             // 
-            // aboutToolStripMenuItem
+            // modeToolStripMenuItem
             // 
-            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.authorToolStripMenuItem});
-            this.aboutToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("aboutToolStripMenuItem.Image")));
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
-            this.aboutToolStripMenuItem.Text = "About";
+            this.modeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.darkModeToolStripMenuItem1,
+            this.normalModeToolStripMenuItem});
+            this.modeToolStripMenuItem.Name = "modeToolStripMenuItem";
+            this.modeToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.modeToolStripMenuItem.Text = "Mode";
+            // 
+            // darkModeToolStripMenuItem1
+            // 
+            this.darkModeToolStripMenuItem1.Name = "darkModeToolStripMenuItem1";
+            this.darkModeToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.darkModeToolStripMenuItem1.Text = "Dark Mode";
+            this.darkModeToolStripMenuItem1.Click += new System.EventHandler(this.DarkModeToolStripMenuItem1_Click);
+            // 
+            // normalModeToolStripMenuItem
+            // 
+            this.normalModeToolStripMenuItem.Name = "normalModeToolStripMenuItem";
+            this.normalModeToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.normalModeToolStripMenuItem.Text = "Normal Mode";
+            this.normalModeToolStripMenuItem.Click += new System.EventHandler(this.NormalModeToolStripMenuItem_Click);
+            // 
+            // optionsMenuAbout
+            // 
+            this.optionsMenuAbout.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.authorToolStripMenuItem,
+            this.linksToolStripMenuItem});
+            this.optionsMenuAbout.Image = ((System.Drawing.Image)(resources.GetObject("optionsMenuAbout.Image")));
+            this.optionsMenuAbout.Name = "optionsMenuAbout";
+            this.optionsMenuAbout.Size = new System.Drawing.Size(61, 20);
+            this.optionsMenuAbout.Text = "Extra";
             // 
             // authorToolStripMenuItem
             // 
             this.authorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("authorToolStripMenuItem.Image")));
             this.authorToolStripMenuItem.Name = "authorToolStripMenuItem";
             this.authorToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F6;
-            this.authorToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.authorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.authorToolStripMenuItem.Text = "Author";
             this.authorToolStripMenuItem.Click += new System.EventHandler(this.authorToolStripMenuItem_Click);
             // 
             // linksToolStripMenuItem
             // 
             this.linksToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gitHubToolStripMenuItem1,
-            this.linkedInToolStripMenuItem});
+            this.linkedInToolStripMenuItem1,
+            this.gitHubToolStripMenuItem});
             this.linksToolStripMenuItem.Name = "linksToolStripMenuItem";
-            this.linksToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.linksToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.linksToolStripMenuItem.Text = "Links";
             // 
-            // gitHubToolStripMenuItem1
+            // linkedInToolStripMenuItem1
             // 
-            this.gitHubToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("gitHubToolStripMenuItem1.Image")));
-            this.gitHubToolStripMenuItem1.Name = "gitHubToolStripMenuItem1";
-            this.gitHubToolStripMenuItem1.Size = new System.Drawing.Size(119, 22);
-            this.gitHubToolStripMenuItem1.Text = "GitHub";
-            this.gitHubToolStripMenuItem1.Click += new System.EventHandler(this.gitHubToolStripMenuItem1_Click);
+            this.linkedInToolStripMenuItem1.Name = "linkedInToolStripMenuItem1";
+            this.linkedInToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.linkedInToolStripMenuItem1.Text = "LinkedIn";
+            this.linkedInToolStripMenuItem1.Click += new System.EventHandler(this.LinkedInToolStripMenuItem_Click);
             // 
-            // linkedInToolStripMenuItem
+            // gitHubToolStripMenuItem
             // 
-            this.linkedInToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("linkedInToolStripMenuItem.Image")));
-            this.linkedInToolStripMenuItem.Name = "linkedInToolStripMenuItem";
-            this.linkedInToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
-            this.linkedInToolStripMenuItem.Text = "LinkedIn";
-            this.linkedInToolStripMenuItem.Click += new System.EventHandler(this.linkedInToolStripMenuItem_Click);
-            // 
-            // modeToolStripMenuItem
-            // 
-            this.modeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.darkModeToolStripMenuItem,
-            this.lightModeToolStripMenuItem});
-            this.modeToolStripMenuItem.Name = "modeToolStripMenuItem";
-            this.modeToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.modeToolStripMenuItem.Text = "Mode";
-            // 
-            // darkModeToolStripMenuItem
-            // 
-            this.darkModeToolStripMenuItem.Name = "darkModeToolStripMenuItem";
-            this.darkModeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
-            this.darkModeToolStripMenuItem.Text = "Dark Mode";
-            this.darkModeToolStripMenuItem.Click += new System.EventHandler(this.DarkModeToolStripMenuItem_Click);
-            // 
-            // lightModeToolStripMenuItem
-            // 
-            this.lightModeToolStripMenuItem.Name = "lightModeToolStripMenuItem";
-            this.lightModeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
-            this.lightModeToolStripMenuItem.Text = "Light Mode";
-            this.lightModeToolStripMenuItem.Click += new System.EventHandler(this.LightModeToolStripMenuItem_Click);
+            this.gitHubToolStripMenuItem.Name = "gitHubToolStripMenuItem";
+            this.gitHubToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.gitHubToolStripMenuItem.Text = "GitHub";
+            this.gitHubToolStripMenuItem.Click += new System.EventHandler(this.GitHubToolStripMenuItem_Click);
             // 
             // toolStrip1
             // 
             this.toolStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newFolderCmd,
-            this.NewDoc,
-            this.cmdPrint,
-            this.toolStripButton2,
-            this.toolStripButton4,
+            this.menuBarOpenFolder,
+            this.newDocument,
+            this.richTextBoxPrint,
+            this.menuSaveAsButton,
+            this.menuQuickSaveButton,
             this.toolStripSeparator,
-            this.toolStripButton9,
-            this.toolStripButton10,
-            this.cmdCut,
-            this.toolStripButton1,
-            this.toolStripButton3,
-            this.toolStripButton5,
-            this.toolStripButton6,
-            this.toolStripButton7,
+            this.richTextBoxFontSize,
+            this.richTextBoxColouredFont,
+            this.richTextBoxCut,
+            this.boldFont,
+            this.italicFont,
+            this.normalFont,
+            this.richTextBoxStrikeThrough,
+            this.RichTextBoxUnderlined,
             this.toolStripSeparator1,
-            this.toolStripButton8,
-            this.toolStripButton11});
+            this.menuBarUndo,
+            this.menuBarRedo});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(1200, 25);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // newFolderCmd
+            // menuBarOpenFolder
             // 
-            this.newFolderCmd.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.newFolderCmd.Image = ((System.Drawing.Image)(resources.GetObject("newFolderCmd.Image")));
-            this.newFolderCmd.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.newFolderCmd.Name = "newFolderCmd";
-            this.newFolderCmd.Size = new System.Drawing.Size(23, 22);
-            this.newFolderCmd.Text = "Open Document";
-            this.newFolderCmd.Click += new System.EventHandler(this.newFolderCmd_Click);
+            this.menuBarOpenFolder.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.menuBarOpenFolder.Image = ((System.Drawing.Image)(resources.GetObject("menuBarOpenFolder.Image")));
+            this.menuBarOpenFolder.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.menuBarOpenFolder.Name = "menuBarOpenFolder";
+            this.menuBarOpenFolder.Size = new System.Drawing.Size(23, 22);
+            this.menuBarOpenFolder.Text = "Open Document";
+            this.menuBarOpenFolder.Click += new System.EventHandler(this.openDocumentRichTextBox_Click);
             // 
-            // NewDoc
+            // newDocument
             // 
-            this.NewDoc.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.NewDoc.Image = ((System.Drawing.Image)(resources.GetObject("NewDoc.Image")));
-            this.NewDoc.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.NewDoc.Name = "NewDoc";
-            this.NewDoc.Size = new System.Drawing.Size(23, 22);
-            this.NewDoc.Text = "New Document";
-            this.NewDoc.Click += new System.EventHandler(this.NewDoc_Click);
+            this.newDocument.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.newDocument.Image = ((System.Drawing.Image)(resources.GetObject("newDocument.Image")));
+            this.newDocument.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.newDocument.Name = "newDocument";
+            this.newDocument.Size = new System.Drawing.Size(23, 22);
+            this.newDocument.Text = "New Document";
+            this.newDocument.Click += new System.EventHandler(this.NewDoc_Click);
             // 
-            // cmdPrint
+            // richTextBoxPrint
             // 
-            this.cmdPrint.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.cmdPrint.Image = ((System.Drawing.Image)(resources.GetObject("cmdPrint.Image")));
-            this.cmdPrint.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cmdPrint.Name = "cmdPrint";
-            this.cmdPrint.Size = new System.Drawing.Size(23, 22);
-            this.cmdPrint.Text = "Print";
-            this.cmdPrint.Click += new System.EventHandler(this.cmdPrint_Click);
+            this.richTextBoxPrint.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.richTextBoxPrint.Image = ((System.Drawing.Image)(resources.GetObject("richTextBoxPrint.Image")));
+            this.richTextBoxPrint.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.richTextBoxPrint.Name = "richTextBoxPrint";
+            this.richTextBoxPrint.Size = new System.Drawing.Size(23, 22);
+            this.richTextBoxPrint.Text = "Print";
+            this.richTextBoxPrint.Click += new System.EventHandler(this.cmdPrint_Click);
             // 
-            // toolStripButton2
+            // menuSaveAsButton
             // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton2.Text = "Save As";
-            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
+            this.menuSaveAsButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.menuSaveAsButton.Image = ((System.Drawing.Image)(resources.GetObject("menuSaveAsButton.Image")));
+            this.menuSaveAsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.menuSaveAsButton.Name = "menuSaveAsButton";
+            this.menuSaveAsButton.Size = new System.Drawing.Size(23, 22);
+            this.menuSaveAsButton.Text = "Save As";
+            this.menuSaveAsButton.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
-            // Save Button
+            // menuQuickSaveButton
             // 
-            this.toolStripButton4.Name = "Save";
-            this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton4.Click += new System.EventHandler(this.ToolSaveButton_Click);
+            this.menuQuickSaveButton.Image = ((System.Drawing.Image)(resources.GetObject("menuQuickSaveButton.Image")));
+            this.menuQuickSaveButton.Name = "menuQuickSaveButton";
+            this.menuQuickSaveButton.Size = new System.Drawing.Size(23, 22);
+            this.menuQuickSaveButton.ToolTipText = "Quick Save";
+            this.menuQuickSaveButton.Click += new System.EventHandler(this.ToolSaveButton_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
             this.toolStripSeparator.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripButton9
+            // richTextBoxFontSize
             // 
-            this.toolStripButton9.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton9.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton9.Image")));
-            this.toolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton9.Name = "toolStripButton9";
-            this.toolStripButton9.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton9.Text = "Font Size";
-            this.toolStripButton9.Click += new System.EventHandler(this.toolStripButton9_Click);
+            this.richTextBoxFontSize.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.richTextBoxFontSize.Image = ((System.Drawing.Image)(resources.GetObject("richTextBoxFontSize.Image")));
+            this.richTextBoxFontSize.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.richTextBoxFontSize.Name = "richTextBoxFontSize";
+            this.richTextBoxFontSize.Size = new System.Drawing.Size(23, 22);
+            this.richTextBoxFontSize.Text = "Font Size";
+            this.richTextBoxFontSize.Click += new System.EventHandler(this.toolStripButton9_Click);
             // 
-            // toolStripButton10
+            // richTextBoxColouredFont
             // 
-            this.toolStripButton10.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton10.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton10.Image")));
-            this.toolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton10.Name = "toolStripButton10";
-            this.toolStripButton10.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton10.Text = "Font Colour";
-            this.toolStripButton10.Click += new System.EventHandler(this.toolStripButton10_Click);
+            this.richTextBoxColouredFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.richTextBoxColouredFont.Image = ((System.Drawing.Image)(resources.GetObject("richTextBoxColouredFont.Image")));
+            this.richTextBoxColouredFont.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.richTextBoxColouredFont.Name = "richTextBoxColouredFont";
+            this.richTextBoxColouredFont.Size = new System.Drawing.Size(23, 22);
+            this.richTextBoxColouredFont.Text = "Font Colour";
+            this.richTextBoxColouredFont.Click += new System.EventHandler(this.toolStripButton10_Click);
             // 
-            // cmdCut
+            // richTextBoxCut
             // 
-            this.cmdCut.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.cmdCut.Image = ((System.Drawing.Image)(resources.GetObject("cmdCut.Image")));
-            this.cmdCut.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.cmdCut.Name = "cmdCut";
-            this.cmdCut.Size = new System.Drawing.Size(23, 22);
-            this.cmdCut.Text = "Cut";
-            this.cmdCut.Click += new System.EventHandler(this.toolStripButton7_Click);
+            this.richTextBoxCut.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.richTextBoxCut.Image = ((System.Drawing.Image)(resources.GetObject("richTextBoxCut.Image")));
+            this.richTextBoxCut.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.richTextBoxCut.Name = "richTextBoxCut";
+            this.richTextBoxCut.Size = new System.Drawing.Size(23, 22);
+            this.richTextBoxCut.Text = "Cut";
+            this.richTextBoxCut.Click += new System.EventHandler(this.toolStripButton7_Click);
             // 
-            // toolStripButton1
+            // boldFont
             // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "Bold";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            this.boldFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.boldFont.Image = ((System.Drawing.Image)(resources.GetObject("boldFont.Image")));
+            this.boldFont.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.boldFont.Name = "boldFont";
+            this.boldFont.Size = new System.Drawing.Size(23, 22);
+            this.boldFont.Text = "Bold";
+            this.boldFont.Click += new System.EventHandler(this.menuBoldFont_Click);
             // 
-            // toolStripButton3
+            // italicFont
             // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton3.Text = "Italic";
-            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
+            this.italicFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.italicFont.Image = ((System.Drawing.Image)(resources.GetObject("italicFont.Image")));
+            this.italicFont.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.italicFont.Name = "italicFont";
+            this.italicFont.Size = new System.Drawing.Size(23, 22);
+            this.italicFont.Text = "Italic";
+            this.italicFont.Click += new System.EventHandler(this.FontToolButton_Click);
             // 
-            // toolStripButton5
+            // normalFont
             // 
-            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
-            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton5.Text = "Normal";
-            this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
+            this.normalFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.normalFont.Image = ((System.Drawing.Image)(resources.GetObject("normalFont.Image")));
+            this.normalFont.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.normalFont.Name = "normalFont";
+            this.normalFont.Size = new System.Drawing.Size(23, 22);
+            this.normalFont.Text = "Normal";
+            this.normalFont.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
-            // toolStripButton6
+            // richTextBoxStrikeThrough
             // 
-            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
-            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton6.Text = "Strike Through";
-            this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
+            this.richTextBoxStrikeThrough.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.richTextBoxStrikeThrough.Image = ((System.Drawing.Image)(resources.GetObject("richTextBoxStrikeThrough.Image")));
+            this.richTextBoxStrikeThrough.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.richTextBoxStrikeThrough.Name = "richTextBoxStrikeThrough";
+            this.richTextBoxStrikeThrough.Size = new System.Drawing.Size(23, 22);
+            this.richTextBoxStrikeThrough.Text = "Strike Through";
+            this.richTextBoxStrikeThrough.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
-            // toolStripButton7
+            // RichTextBoxUnderlined
             // 
-            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton7.Image")));
-            this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton7.Name = "toolStripButton7";
-            this.toolStripButton7.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton7.Text = "Underline";
-            this.toolStripButton7.Click += new System.EventHandler(this.toolStripButton7_Click_1);
+            this.RichTextBoxUnderlined.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.RichTextBoxUnderlined.Image = ((System.Drawing.Image)(resources.GetObject("RichTextBoxUnderlined.Image")));
+            this.RichTextBoxUnderlined.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.RichTextBoxUnderlined.Name = "RichTextBoxUnderlined";
+            this.RichTextBoxUnderlined.Size = new System.Drawing.Size(23, 22);
+            this.RichTextBoxUnderlined.Text = "Underline";
+            this.RichTextBoxUnderlined.Click += new System.EventHandler(this.toolStripButton7_Click_1);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripButton8
+            // menuBarUndo
             // 
-            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
-            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton8.Text = "Undo";
-            this.toolStripButton8.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
+            this.menuBarUndo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.menuBarUndo.Image = ((System.Drawing.Image)(resources.GetObject("menuBarUndo.Image")));
+            this.menuBarUndo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.menuBarUndo.Name = "menuBarUndo";
+            this.menuBarUndo.Size = new System.Drawing.Size(23, 22);
+            this.menuBarUndo.Text = "Undo";
+            this.menuBarUndo.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
             // 
-            // toolStripButton11
+            // menuBarRedo
             // 
-            this.toolStripButton11.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton11.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton11.Image")));
-            this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton11.Name = "toolStripButton11";
-            this.toolStripButton11.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton11.Text = "Redo";
-            this.toolStripButton11.Click += new System.EventHandler(this.redoToolStripMenuItem_Click);
+            this.menuBarRedo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.menuBarRedo.Image = ((System.Drawing.Image)(resources.GetObject("menuBarRedo.Image")));
+            this.menuBarRedo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.menuBarRedo.Name = "menuBarRedo";
+            this.menuBarRedo.Size = new System.Drawing.Size(23, 22);
+            this.menuBarRedo.Text = "Redo";
+            this.menuBarRedo.Click += new System.EventHandler(this.redoToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
@@ -701,10 +705,10 @@
 
         private System.Windows.Forms.RichTextBox TextBox;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem formatToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem optionMenuFile;
+        private System.Windows.Forms.ToolStripMenuItem optionsMenuEdit;
+        private System.Windows.Forms.ToolStripMenuItem optionMenuFormat;
+        private System.Windows.Forms.ToolStripMenuItem optionsMenuAbout;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
@@ -729,40 +733,43 @@
         private System.Windows.Forms.ToolStripMenuItem underlineToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem strikeThroughToolStripMenuItem;
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton newFolderCmd;
-        private System.Windows.Forms.ToolStripButton cmdCut;
+        private System.Windows.Forms.ToolStripButton menuBarOpenFolder;
+        private System.Windows.Forms.ToolStripButton richTextBoxCut;
         private System.Windows.Forms.HelpProvider helpProvider1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.ToolStripMenuItem dateTimeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripButton cmdPrint;
-        private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton4;
-        private System.Windows.Forms.ToolStripButton toolStripButton9;
-        private System.Windows.Forms.ToolStripButton toolStripButton10;
+        private System.Windows.Forms.ToolStripButton richTextBoxPrint;
+        private System.Windows.Forms.ToolStripButton menuSaveAsButton;
+        private System.Windows.Forms.ToolStripButton menuQuickSaveButton;
+        private System.Windows.Forms.ToolStripButton richTextBoxFontSize;
+        private System.Windows.Forms.ToolStripButton richTextBoxColouredFont;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cutToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
-        private System.Windows.Forms.ToolStripButton NewDoc;
+        private System.Windows.Forms.ToolStripButton newDocument;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Label WordsLbl;
         private System.Windows.Forms.ToolStripMenuItem wordCountToolStripMenuItem1;
         private System.Windows.Forms.PrintDialog printDialog1;
-        private System.Windows.Forms.ToolStripMenuItem linksToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gitHubToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem linkedInToolStripMenuItem;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
-        private System.Windows.Forms.ToolStripButton toolStripButton5;
-        private System.Windows.Forms.ToolStripButton toolStripButton6;
-        private System.Windows.Forms.ToolStripButton toolStripButton7;
+        private System.Windows.Forms.ToolStripButton boldFont;
+        private System.Windows.Forms.ToolStripButton italicFont;
+        private System.Windows.Forms.ToolStripButton normalFont;
+        private System.Windows.Forms.ToolStripButton richTextBoxStrikeThrough;
+        private System.Windows.Forms.ToolStripButton RichTextBoxUnderlined;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton toolStripButton8;
-        private System.Windows.Forms.ToolStripButton toolStripButton11;
+        private System.Windows.Forms.ToolStripButton menuBarUndo;
+        private System.Windows.Forms.ToolStripButton menuBarRedo;
         private System.Windows.Forms.ToolStripMenuItem modeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem darkModeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lightModeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem darkModeToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem normalModeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem linksToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem linkedInToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem gitHubToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem optionMenuLinks;
+        private System.Windows.Forms.ToolStripMenuItem gitHubToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem linkedInToolStripMenuItem;
     }
 }
 
