@@ -21,6 +21,8 @@ namespace LightPad
         int start;
 
         public bool WordWrap { get; set; }
+        public RichTextBox richtext { get; private set; }
+
         //public static bool Cancel { get; private set; }
 
         //end
@@ -452,7 +454,8 @@ namespace LightPad
             int WordsCounted = WordCount.Split(seperator, StringSplitOptions.RemoveEmptyEntries).Length;
             WordsLbl.Text = WordsCounted.ToString();
             {
-                WordsLbl.ForeColor = Color.Black; //Changes the colour to black               
+                //Changes the colour to black
+                WordsLbl.ForeColor = Color.Black;             
             }
         }
         #endregion
