@@ -8,7 +8,7 @@ LightPad allows the user to create documents and store information which they ca
 * *Better interfaces*
 
 
-##**What I learnt**##
+## **What I learnt** ##
 
 Better planning using Trello board
 Placing comments in the application
