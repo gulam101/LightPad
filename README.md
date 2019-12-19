@@ -1,12 +1,14 @@
 # LightPad #
 
-Description: LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
+## Description: ##
 
-Planned features for next few builds:
+LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
+
+## Planned features for next few builds: ##
 * *Better interfaces*
 
 
-**What I learnt**
+##**What I learnt**##
 
 Better planning using Trello board
 Placing comments in the application
