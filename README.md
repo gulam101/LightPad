@@ -19,6 +19,7 @@ LightPad allows the user to create documents and store information which they ca
 - How to track GitHub changes
 - How to revert back to original changes in GitHub
 - Unit Testing to check functions work
+- Further understanding of GitHub
 
 ________________________________________________________________________________________________________________________________________
 
