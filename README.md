@@ -10,7 +10,7 @@ With LightPad the user can also set the application to dark mode to restrain the
 * *Better interfaces*
 
 
-### What I learnt
+### What I learnt:
 
 - Better planning using Trello board
 - Placing comments in the application
@@ -22,6 +22,14 @@ With LightPad the user can also set the application to dark mode to restrain the
 - How to revert back to original changes in GitHub
 - Unit Testing to check functions work
 - Further understanding of GitHub
+
+### Constraints:
+
+I had some problems where the application wouldn't save. It would give a crash handler. I solved this problem. Also another problem was that the application was take a lot of RAM up when the user would start writing some text.
+
+### Improvements:
+
+I think the interface could be changed and also improvement could be made to the performance.
 
 ________________________________________________________________________________________________________________________________________
 
