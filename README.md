@@ -10,14 +10,14 @@ LightPad allows the user to create documents and store information which they ca
 
 ## **What I learnt** ##
 
-Better planning using Trello board
-Placing comments in the application
-Using keyboard shotcuts to reduce development time
-Writing cleaner code
-How to increase performance
-How to use GitHub properly
-How to track GitHub changes
-Hot to revert back to original changes in GitHub
+- Better planning using Trello board
+- Placing comments in the application
+- Using keyboard shotcuts to reduce development time
+- Writing cleaner code
+- How to increase performance
+- How to use GitHub properly
+- How to track GitHub changes
+- Hot to revert back to original changes in GitHub
 
 ________________________________________________________________________________________________________________________________________
 
