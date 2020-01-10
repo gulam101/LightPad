@@ -2,9 +2,23 @@
 
 ### Description:
 
-When I created this project it started out as an online challenge to create a simple project that just shows information on the application. I then decided to create the application that allows the project to save, edit and do other things with the application. LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
+When I created this project it started out as an online challenge to create a simple project that just shows information on the application. 
 
+![IMG002](https://user-images.githubusercontent.com/45819118/72181775-f63be500-33e1-11ea-9185-25aed9574182.PNG)
+I then decided to create the application that allows the project to save, edit and do other things with the application. LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
+
+
+
+![IMG001](https://user-images.githubusercontent.com/45819118/72182073-9bef5400-33e2-11ea-846c-379f93856e49.PNG)
 With LightPad the user can also set the application to dark mode to restrain the application from damaging their eyes.
+
+![IMG003](https://user-images.githubusercontent.com/45819118/72182075-9bef5400-33e2-11ea-937b-6910e20e46c7.PNG)
+User can also revert back to the white background if they don't like to using the black background.
+
+![IMG004](https://user-images.githubusercontent.com/45819118/72182076-9c87ea80-33e2-11ea-9076-a93381336570.PNG)
+The user can change the font size, colour and insert the date/time in the document.
+
+
 
 ### Planned features for next few builds:
 * *Better interfaces*
@@ -28,7 +42,7 @@ I had some problems where the application wouldn't save and it would crash the a
 
 ### Improvements:
 
-I think the interface could be changed and also improvement could be made to the performance.
+I think the interface could be changed and also if the user clicked on the bold icon and decided to click on it again to turn off the feature, it won't let the user. I think this should be fixed as this is a flaw within the application.
 
 ________________________________________________________________________________________________________________________________________
 
