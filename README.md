@@ -13,9 +13,10 @@ I then decided to create the application that allows the project to save, edit a
 With LightPad the user can also set the application to dark mode to restrain the application from damaging their eyes.
 
 ![IMG003](https://user-images.githubusercontent.com/45819118/72182075-9bef5400-33e2-11ea-937b-6910e20e46c7.PNG)
+User can also revert back to the white background if they don't like to using the black background.
 
 ![IMG004](https://user-images.githubusercontent.com/45819118/72182076-9c87ea80-33e2-11ea-9076-a93381336570.PNG)
-
+The user can change the font size, colour and insert the date/time in the document.
 
 
 
