@@ -42,7 +42,7 @@ I had some problems where the application wouldn't save and it would crash the a
 
 ### Improvements:
 
-I think the interface could be changed and also improvement could be made to the performance.
+I think the interface could be changed and also if the user clicked on the bold icon and decided to click on it again to turn off the feature, it won't let the user. I think this should be fixed as this is a flaw within the application.
 
 ________________________________________________________________________________________________________________________________________
 
