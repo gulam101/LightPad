@@ -41,7 +41,7 @@ namespace LightPad
             //FontToolButton_Click.DoubleClick += new EventHandler(FontToolButton_Click);
         }
 
-        #region Exit-Application
+        #region Exit Application
         private void exitMenuButton_Click(object sender, EventArgs e)
         {
             //Exits application using the button in the menu
@@ -61,7 +61,7 @@ namespace LightPad
         }
         #endregion
 
-        #region New-Document
+        #region New Document
         private void newToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //declares the variable
@@ -123,7 +123,7 @@ namespace LightPad
         }
         #endregion
 
-        #region Open-File
+        #region Open File
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             OpenFileDialog op = new OpenFileDialog();
@@ -134,7 +134,7 @@ namespace LightPad
         }
         #endregion
 
-        #region RichText-Box Functions
+        #region RichTextBox Functions
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             //If the text is greater than zero
@@ -154,7 +154,7 @@ namespace LightPad
             }
             #endregion
 
-        #region Context-Menu
+        #region Context Menu
             //Declares the variable
             ContextMenu cm = new ContextMenu();
             //Lists the first item using the variable
@@ -177,7 +177,7 @@ namespace LightPad
 
         #endregion
 
-        #region Select-All
+        #region Select All
 
         private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -196,28 +196,28 @@ namespace LightPad
         }
         #endregion
 
-        #region Font-Bold
+        #region Font Bold
         private void boldToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Bold);
         }
         #endregion
 
-        #region Font-Italic
+        #region Font Italic
         private void italicToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Italic);
         }
         #endregion
 
-        #region Font-Regular
+        #region Font Regular
         private void normalTextToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
         }
         #endregion
 
-        #region Font-Colour
+        #region Font Colour
         private void fontColourToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ColorDialog cd = new ColorDialog();
@@ -228,21 +228,21 @@ namespace LightPad
         }
         #endregion
 
-        #region Font-Underlined
+        #region Font Underlined
         private void underlineToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Underline);
         }
         #endregion
 
-        #region Font-Strike
+        #region Font Strike
         private void strikeThroughToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Strikeout);
         }
         #endregion
 
-        #region SaveAs
+        #region Save As
         private void saveAsToolStripMenuItem_Click(object sender, EventArgs e)
         {
           SaveFileDialog sv = new SaveFileDialog();
@@ -253,19 +253,17 @@ namespace LightPad
         }
         #endregion
 
-        #region Font-Bold
+        #region Font Bold
         private void boldToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Bold);
-            MessageBox.Show("Test", "Test");
         }
         #endregion
 
-        #region Font-Italic
+        #region Font Italic
         private void italicToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Italic);
-            MessageBox.Show("Test", "Test");
         }
         #endregion
 
@@ -273,8 +271,6 @@ namespace LightPad
         private void normalToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
-            //Used as a test
-            MessageBox.Show("Test", "Test");
         }
         #endregion
 
@@ -315,7 +311,7 @@ namespace LightPad
         }
         #endregion
 
-        #region New-Document
+        #region New Document
         private void NewDoc_Click(object sender, EventArgs e)
         {
             var newDocument = MessageBox.Show(                     //declares the variable
@@ -331,7 +327,7 @@ namespace LightPad
         }
         #endregion
 
-        #region SaveAs
+        #region Save As
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
             SaveFileDialog sv = new SaveFileDialog();
@@ -342,7 +338,7 @@ namespace LightPad
         }
         #endregion
 
-        #region Date-And-Time
+        #region Date And Time
         private void dateTimeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var AreYouSure = MessageBox.Show("Are you sure you want to insert this item?",
@@ -380,7 +376,7 @@ namespace LightPad
 
         #endregion
 
-        #region Font-Size
+        #region Font Size
         private void fontSizeToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FontDialog fd = new FontDialog();
@@ -391,7 +387,7 @@ namespace LightPad
         }
         #endregion
 
-        #region Word Count
+        #region Word Count RightClick Menu
         private void wordCountToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string WordCount = TextBox.Text;
@@ -423,7 +419,7 @@ namespace LightPad
 
         #endregion
 
-        #region Find-Next
+        #region Find Next
         private void findNextToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Return value is set to false
@@ -444,17 +440,16 @@ namespace LightPad
         }
         #endregion
 
-        #region Word-Count
+        #region Word Count
         private void wordCountToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             string WordCount = TextBox.Text;
-            char[] seperator = {' '};
+            char[] seperator = {' ', '\n', '\r' };
             int WordsCounted = WordCount.Split(seperator, StringSplitOptions.RemoveEmptyEntries).Length;
-            WordsLbl.Text = WordsCounted.ToString();
-            {
-                //Changes the colour to black
-                WordsLbl.ForeColor = Color.Black;             
-            }
+            //Converts the int into string
+            WordsLbl.Text = WordsCounted.ToString();    
+            //Changes the colour to black
+            WordsLbl.ForeColor = Color.Black;             
         }
         #endregion
 
@@ -468,7 +463,7 @@ namespace LightPad
         }
         #endregion
 
-        #region Font-Dialog
+        #region Font Dialog
         private void toolStripButton9_Click(object sender, EventArgs e)
         {
             FontDialog fd = new FontDialog();
@@ -479,7 +474,7 @@ namespace LightPad
         }
         #endregion
 
-        #region Search-Cmd
+        #region Search Cmd
         private void toolStripButton10_Click(object sender, EventArgs e)
         {
             ColorDialog cd = new ColorDialog();
@@ -500,7 +495,7 @@ namespace LightPad
         }
         #endregion
 
-        #region BoldMenuTab
+        #region Bold Menu Tab
         private void menuBoldFont_Click(object sender, EventArgs e)
         {
             bool boldText = false;
@@ -523,37 +518,35 @@ namespace LightPad
         }
         #endregion
 
-        #region Font-Italic
+        #region Font Italic
         private void FontToolButton_Click(object sender, EventArgs e)
         {
-            //TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Italic);
-
-           
+            TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Italic);
         }
         #endregion
 
-        #region Font-Regular
+        #region Font Regular
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
         }
         #endregion
 
-        #region Font-Strikeout
+        #region Font Strikeout
         private void toolStripButton6_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Strikeout);
         }
         #endregion
 
-        #region Font-underline
+        #region Font Underline
         private void toolStripButton7_Click_1(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Underline);
         }
         #endregion
 
-        #region Undo-Button-On-Menubar
+        #region Undo Button On Menubar
         private void toolMenuUndo(object sender, EventArgs e)
         {
             //Undo's the text in the box
@@ -565,7 +558,7 @@ namespace LightPad
         }
         #endregion
 
-        #region Redo-Button-On-Menubar
+        #region Redo Button On Menubar
         private void toolMenuRedo(object sender, EventArgs e)
         {
             TextBox.Redo();
@@ -576,7 +569,7 @@ namespace LightPad
         }
         #endregion
 
-        #region QuickSaveButton
+        #region Quick Save Button
         private void ToolSaveButton_Click(object sender, EventArgs e)
         {
             //Using as placeholder
@@ -588,7 +581,7 @@ namespace LightPad
         }
         #endregion
 
-        #region ExitApplication
+        #region Exit Application
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             if (CloseCancel() == false)
