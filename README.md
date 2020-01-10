@@ -12,8 +12,8 @@ I then decided to create the application that allows the project to save, edit a
 ![IMG001](https://user-images.githubusercontent.com/45819118/72182073-9bef5400-33e2-11ea-846c-379f93856e49.PNG)
 With LightPad the user can also set the application to dark mode to restrain the application from damaging their eyes.
 
-![IMG002](https://user-images.githubusercontent.com/45819118/72182074-9bef5400-33e2-11ea-9256-025df130e55c.PNG)
 ![IMG003](https://user-images.githubusercontent.com/45819118/72182075-9bef5400-33e2-11ea-937b-6910e20e46c7.PNG)
+
 ![IMG004](https://user-images.githubusercontent.com/45819118/72182076-9c87ea80-33e2-11ea-9076-a93381336570.PNG)
 
 
