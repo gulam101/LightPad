@@ -2,15 +2,19 @@
 
 ### Description:
 
-When I created this project it started out as an online challenge to create a simple project that just shows information on the application. I then decided to create the application that allows the project to save, edit and do other things with the application. LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
+When I created this project it started out as an online challenge to create a simple project that just shows information on the application. 
 
 ![IMG002](https://user-images.githubusercontent.com/45819118/72181775-f63be500-33e1-11ea-9185-25aed9574182.PNG)
+I then decided to create the application that allows the project to save, edit and do other things with the application. LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
 
 
-![IMG003](https://user-images.githubusercontent.com/45819118/72181776-f63be500-33e1-11ea-9a99-39b13be64701.PNG)
 
+![IMG001](https://user-images.githubusercontent.com/45819118/72182073-9bef5400-33e2-11ea-846c-379f93856e49.PNG)
 With LightPad the user can also set the application to dark mode to restrain the application from damaging their eyes.
-![IMG001](https://user-images.githubusercontent.com/45819118/72181777-f6d47b80-33e1-11ea-978a-70df210ca43f.PNG)
+
+![IMG002](https://user-images.githubusercontent.com/45819118/72182074-9bef5400-33e2-11ea-9256-025df130e55c.PNG)
+![IMG003](https://user-images.githubusercontent.com/45819118/72182075-9bef5400-33e2-11ea-937b-6910e20e46c7.PNG)
+![IMG004](https://user-images.githubusercontent.com/45819118/72182076-9c87ea80-33e2-11ea-9076-a93381336570.PNG)
 
 
 
