@@ -4,7 +4,16 @@
 
 When I created this project it started out as an online challenge to create a simple project that just shows information on the application. I then decided to create the application that allows the project to save, edit and do other things with the application. LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
 
+![IMG002](https://user-images.githubusercontent.com/45819118/72181775-f63be500-33e1-11ea-9185-25aed9574182.PNG)
+
+
+![IMG003](https://user-images.githubusercontent.com/45819118/72181776-f63be500-33e1-11ea-9a99-39b13be64701.PNG)
+
 With LightPad the user can also set the application to dark mode to restrain the application from damaging their eyes.
+![IMG001](https://user-images.githubusercontent.com/45819118/72181777-f6d47b80-33e1-11ea-978a-70df210ca43f.PNG)
+
+
+
 
 ### Planned features for next few builds:
 * *Better interfaces*
