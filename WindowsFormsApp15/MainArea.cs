@@ -578,10 +578,17 @@ namespace LightPad
         }
         #endregion
 
+        #region QuickSaveButton
         private void ToolSaveButton_Click(object sender, EventArgs e)
         {
-
+            //Using as placeholder
+            SaveFileDialog sv = new SaveFileDialog();
+            sv.Filter = "New LightPad Document(*.txt)|*.txt|All Files(*.*)|*.*";
+            if (sv.ShowDialog() == DialogResult.OK)
+                TextBox.SaveFile(sv.FileName, RichTextBoxStreamType.PlainText);
+            Text = sv.FileName;
         }
+        #endregion
 
         #region ExitApplication
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -640,15 +647,21 @@ namespace LightPad
         }
         #endregion
 
+        #region LinkedIn
         private void LinkedInToolStripMenuItem_Click(object sender, EventArgs e)
         {
            //Links to my LinkedIn page
            Process.Start("https://www.linkedin.com/in/gulam-qasim-8a8b0816b/");
         }
+
+        #endregion
+
+        #region GitHub
         private void GitHubToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Loads the default browser links to my GitHub Page
            Process.Start("https://github.com/gulam101");
         }
+        #endregion
     }
 }
