@@ -1,19 +1,34 @@
-Description: LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
+# LightPad #
 
-Planned features for next few builds:
+### Description:
+
+When I created this project it started out as an online challenge to create a simple project that just shows information on the application. I then decided to create the application that allows the project to save, edit and do other things with the application. LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
+
+With LightPad the user can also set the application to dark mode to restrain the application from damaging their eyes.
+
+### Planned features for next few builds:
 * *Better interfaces*
 
 
-**What I learnt**
+### What I learnt:
 
-Better planning using Trello board
-Placing comments in the application
-Using keyboard shotcuts to reduce development time
-Writing cleaner code
-How to increase performance
-How to use GitHub properly
-How to track GitHub changes
-Hot to revert back to original changes in GitHub
+- Better planning using Trello board
+- Placing comments in the application
+- Using keyboard shotcuts to reduce development time
+- Writing cleaner code
+- How to increase performance
+- How to use GitHub properly
+- How to track GitHub changes
+- How to revert back to original changes in GitHub
+- Unit Testing to check functions work
+
+### Constraints:
+
+I had some problems where the application wouldn't save and it would crash the application, however I solved this problem. Also another problem was that the application was taking a lot of RAM up when the user would start clicking on the objects.
+
+### Improvements:
+
+I think the interface could be changed and also improvement could be made to the performance.
 
 ________________________________________________________________________________________________________________________________________
 
@@ -25,7 +40,7 @@ ________________________________________________________________________________
 * Corrected changes in the document
 * Corrected changes in the application
 * Fixed the quick save button + changed the icon
-* Moved the links button into "Extra" tav
+* Moved the links button into "Extra" tab
 - Removed unused file
 - Removed links tab from menu
 ________________________________________________________________________________________________________________________________________
