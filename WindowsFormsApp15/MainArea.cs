@@ -134,7 +134,7 @@ namespace LightPad
         }
         #endregion
 
-        #region RichText-Box
+        #region RichText-Box Functions
         private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
             //If the text is greater than zero
@@ -144,7 +144,6 @@ namespace LightPad
                 undoToolStripMenuItem.Enabled = true; 
                 copyToolStripMenuItem.Enabled = true;
                 cutToolStripMenuItem.Enabled = true;
-                findNextToolStripMenuItem.Enabled = true;
             }
             else
             {
@@ -152,7 +151,6 @@ namespace LightPad
                 undoToolStripMenuItem.Enabled = false; 
                 copyToolStripMenuItem.Enabled = false;
                 cutToolStripMenuItem.Enabled = false;
-                findNextToolStripMenuItem.Enabled = false;
             }
             #endregion
 
