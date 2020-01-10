@@ -4,7 +4,7 @@
 
 When I created this project it started out as an online challenge to create a simple project that just shows information on the application. I then decided to create the application that allows the project to save, edit and do other things with the application. LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
 
-With LightPad the user can also set the application to dark mode to restrain the application from harming their eyes.
+With LightPad the user can also set the application to dark mode to restrain the application from damaging their eyes.
 
 ### Planned features for next few builds:
 * *Better interfaces*
@@ -21,11 +21,10 @@ With LightPad the user can also set the application to dark mode to restrain the
 - How to track GitHub changes
 - How to revert back to original changes in GitHub
 - Unit Testing to check functions work
-- Further understanding of GitHub
 
 ### Constraints:
 
-I had some problems where the application wouldn't save. It would give a crash handler. I solved this problem. Also another problem was that the application was take a lot of RAM up when the user would start writing some text.
+I had some problems where the application wouldn't save and it would crash the application, however I solved this problem. Also another problem was that the application was taking a lot of RAM up when the user would start clicking on the objects.
 
 ### Improvements:
 
