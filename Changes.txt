@@ -10,10 +10,13 @@ This document contains all the updates from the previous builds. Changes are now
 [New Changes]
 + Added confirmation box when user exits the application
 * Moved dark mode into the format tab
+* Moved the links button into the "Extra" menu
 * Renamed light mode into "normal mode"
 * Fixed word count not counting words after a new line was created
 * Fixed when hovering over the "Font Size" button, it would show the highlighted text as "Font SIze"
 * Fixed save not working correctly
+* Fixed the quick save not saving
+* Fixed the menu having spaces between the options bar
 * Changed Icon for quick save
 * Changed the colour of dark mode to a darker colour
 * Corrected changes in the document
