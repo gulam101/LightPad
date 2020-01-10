@@ -45,8 +45,6 @@
             this.cutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.findToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.findNextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionMenuFormat = new System.Windows.Forms.ToolStripMenuItem();
             this.fontColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -206,8 +204,6 @@
             this.cutToolStripMenuItem,
             this.copyToolStripMenuItem,
             this.pasteToolStripMenuItem,
-            this.findToolStripMenuItem,
-            this.findNextToolStripMenuItem,
             this.selectAllToolStripMenuItem});
             this.optionsMenuEdit.Image = ((System.Drawing.Image)(resources.GetObject("optionsMenuEdit.Image")));
             this.optionsMenuEdit.Name = "optionsMenuEdit";
@@ -720,8 +716,6 @@
         private System.Windows.Forms.ToolStripMenuItem cutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pasteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem findToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem findNextToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem selectAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fontColorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem authorToolStripMenuItem;
