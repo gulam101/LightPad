@@ -26,8 +26,8 @@ This document contains all the updates from the previous builds. Changes are now
  
 
 [Previous Changes 09/09/19]
-+ Added dark dode
-+ light mode have been added
++ Added dark mode
++ light mode has been added
 * When making changes to document it will notify the user
 * Fixed Repo
 * Corrected files
@@ -74,3 +74,5 @@ This document contains all the updates from the previous builds. Changes are now
 - Removed the test menu
 - Removed the search word at the top
 - Removed the About section
+
+
