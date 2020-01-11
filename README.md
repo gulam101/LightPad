@@ -9,7 +9,7 @@
 <a name="Planned Features"/>
 
 [What I learnt](#WhatILearnt)  
-<a name="What I Learnts"/>
+<a name="What I Learnt"/>
 
 [Constraints](#Constraints)  
 <a name="Constraints"/>
