@@ -6,10 +6,10 @@
 <a name="Description"/>
 
 [Planned Features](#PlannedFeatures)  
-<a name="PlannedFeatures"/>
+<a name="Planned Features"/>
 
 [What I learnt](#WhatILearnt)  
-<a name="WhatILearnts"/>
+<a name="What I Learnts"/>
 
 [Constraints](#Constraints)  
 <a name="Constraints"/>
