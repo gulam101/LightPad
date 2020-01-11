@@ -7,7 +7,7 @@ This document contains all the updates from the previous builds. Changes are now
 - Removed
 
 
-[New Changes]
+[New Changes 10/01/2020]
 + Added confirmation box when user exits the application
 * Moved dark mode into the format tab
 * Moved the links button into the "Extra" menu
@@ -25,7 +25,7 @@ This document contains all the updates from the previous builds. Changes are now
 
  
 
-[Previous Changes]
+[Previous Changes 09/09/19]
 + Added dark dode
 + light mode have been added
 * When making changes to document it will notify the user
@@ -42,7 +42,7 @@ This document contains all the updates from the previous builds. Changes are now
 
 
 
-[Previous Changes]
+[Previous Changes 27/08/19]
 + Added the word count button into the menu
 + Added a links button for my GitHub and LinkedIn
 + Added new menu items in the right click menu
@@ -62,20 +62,15 @@ This document contains all the updates from the previous builds. Changes are now
 
 
 
-[Previous Changes]
-* Fixed the font size dialog not showing
-* Fixed the right click menu not correctly showing the options
-- Removed the search word at the top
-- Removed the About section
-
-
-
-[Previous Changes]
+[Previous Changes 23/08/19]
 + Added word count
 + Added two new options in the right click menu
+* Fixed the font size dialog not showing
+* Fixed the right click menu not correctly showing the options
 * Fixed the mistake of the application not loading correctly
 * Fixed the save and save as button not saving documents
 * Fixed the open file not opening the correct files
 - Removed the help menu
 - Removed the test menu
-
+- Removed the search word at the top
+- Removed the About section
