@@ -68,6 +68,8 @@ I had some problems where the application wouldn't save and it would crash the a
 
 I think the interface could be changed and also if the user clicked on the bold icon and decided to click on it again to turn off the feature, it won't let the user. I think this should be fixed as this is a flaw within the application.
 
+### Ad-Hoc Testing
+
 ________________________________________________________________________________________________________________________________________
 
 
@@ -91,5 +93,5 @@ ________________________________________________________________________________
 ### Screenshots
 
 ### Credits
-Gulam Qasim (Author)
-Ainsley Crawford (Tester)
+- Gulam Qasim (Author)
+- Ainsley Crawford (Tester)
