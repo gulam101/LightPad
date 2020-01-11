@@ -34,7 +34,9 @@
 
 ### Description:
 
-When I created this project it started out as an online challenge to create a simple project that just shows information on the application. 
+When I created this project it started out as an online challenge to create an application that could just simply show text and do nothing else. But I decided that I wanted the user to be able to write documents and save them at any time. I started implementing new features across the application and try to design a project that wold test my knowledge in C#.
+
+LightPad has its own features such as being able to enable a dark mode that stops the eyes from being strained when using the application. It has its own word count feature that allows the user to count how many words the user has typed and display this action at the top of the screen. 
 
 
 ### Planned Features:
@@ -62,11 +64,11 @@ I had some problems where the application wouldn't save and it would crash the a
 I think the interface could be changed and also if the user clicked on the bold icon and decided to click on it again to turn off the feature, it won't let the user. I think this should be fixed as this is a flaw within the application.
 
 ### Ad-Hoc Testing
-
-- Tester: Ainsley crawford
-- Date: 02/12/19
-- Technique: Ad-Hoc
 - Title: Ad hoc testing of LightPad
+- Tester: Ainsley crawford
+- Technique: Ad-Hoc
+- Date: 02/12/19
+
 
 1. Ctrl+u has two functions:
 	Pressing ctrl+u once performs the undo function. However, pressing ctrl+u a second time without perfroming any other actions then toggles on the underline font type.
