@@ -40,7 +40,9 @@ LightPad has its own features such as being able to enable a dark mode that stop
 
 
 ### Planned Features:
-* *Better interfaces*
+* Place the word count in a different area (Default is corner)
+* Replace some of the icons with higher quality 
+* Enable double clicking to turn off features
 
 
 ### What I learnt:
@@ -54,6 +56,9 @@ LightPad has its own features such as being able to enable a dark mode that stop
 - How to track GitHub changes
 - How to revert back to original changes in GitHub
 - Unit Testing to check functions work
+
+### Tools/Links
+
 
 ### Constraints:
 
