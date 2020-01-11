@@ -57,22 +57,11 @@ LightPad has its own features such as being able to enable a dark mode that stop
 ### Tools/Links:
 https://trello.com/en
 
-
-
-### Constraints:
-
-I had some problems where the application wouldn't save and it would crash the application, however I solved this problem. Also another problem was that the application was taking a lot of RAM up when the user would start clicking on the objects.
-
-### Improvements:
-
-I think the interface could be changed and also if the user clicked on the bold icon and decided to click on it again to turn off the feature, it won't let the user. I think this should be fixed as this is a flaw within the application.
-
 ### Ad-Hoc Testing
 - Title: Ad hoc testing of LightPad
 - Tester: Ainsley crawford
 - Technique: Ad-Hoc
 - Date: 02/12/19
-
 
 1. Ctrl+u has two functions:
 	Pressing ctrl+u once performs the undo function. However, pressing ctrl+u a second time without perfroming any other actions then toggles on the underline font type.
@@ -85,6 +74,14 @@ I think the interface could be changed and also if the user clicked on the bold 
 
 3. Non-functional bold tab in tool bar:
 	Although the keybard short-cut ctrl+b functions, the tab does not produce any effect.
+	
+### Constraints:
+
+I had some problems where the application wouldn't save and it would crash the application, however I solved this problem. Also another problem was that the application was taking a lot of RAM up when the user would start clicking on the objects.
+
+### Improvements:
+
+I think the interface could be changed and also if the user clicked on the bold icon and decided to click on it again to turn off the feature, it won't let the user. I think this should be fixed as this is a flaw within the application.
 
 ________________________________________________________________________________________________________________________________________
 
@@ -113,9 +110,6 @@ ________________________________________________________________________________
 ### Screenshots
 
 ![IMG002](https://user-images.githubusercontent.com/45819118/72181775-f63be500-33e1-11ea-9185-25aed9574182.PNG)
-I then decided to create the application that allows the project to save, edit and do other things with the application. LightPad allows the user to create documents and store information which they can retrieve later. Documents can be edited at any time.
-
-
 
 ![IMG001](https://user-images.githubusercontent.com/45819118/72182073-9bef5400-33e2-11ea-846c-379f93856e49.PNG)
 With LightPad the user can also set the application to dark mode to restrain the application from damaging their eyes.
