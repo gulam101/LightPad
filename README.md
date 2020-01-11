@@ -20,8 +20,7 @@ The user can change the font size, colour and insert the date/time in the docume
 
 ##### Table of Contents  
 [Headers](#headers)  
-<a name="Planned features"/>
-## Headers
+<a name="Credits"/>
 
 
 ### Planned features:
