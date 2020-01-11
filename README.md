@@ -70,6 +70,22 @@ I think the interface could be changed and also if the user clicked on the bold 
 
 ### Ad-Hoc Testing
 
+- Tester: Ainsley crawford
+- Date: 02/12/19
+- Title: Ad hoc testing of the LightPad application revealed the defects described below
+
+1. Ctrl+u has two functions:
+	Pressing ctrl+u once performs the undo function. However, pressing ctrl+u a second time without perfroming any other actions then toggles on the underline font type.
+	Additionally, ctrl+u can toggle the underline font on, but cannot toggle it off (unless the previous action was to underline a selection of text, in which case the underline is removed because the previous action is undone).
+	NB: Ctrl+z properly executes the undo function.
+
+2. The app does not allow different font sizes:
+	A uniform font size is maintained, even when a portion of text is highlighted in an attempt to diversify the body of text.
+	Interestingly, it is possible to have multiple font colours, which indicates this fault is repairable.
+
+3. Non-functional bold tab in tool bar:
+	Although the keybard short-cut ctrl+b functions, the tab does not produce any effect.
+
 ________________________________________________________________________________________________________________________________________
 
 
