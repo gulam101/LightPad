@@ -23,9 +23,6 @@
 [Development Changes](#Development_Changes)  
 <a name="Development_Changes"/>
 
-[Packages](#Packages)  
-<a name="Packages"/>
-
 [Screenshots](#Screenshots)
 <a name="Screenshots"/>
 
