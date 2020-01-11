@@ -3,19 +3,19 @@
 # Table of Contents
 
 [Description](#Description)  
-<a name="Description:"/>
+<a name="Description"/>
 
 [Planned Features](#PlannedFeatures)  
-<a name="PlannedFeatures:"/>
+<a name="PlannedFeatures"/>
 
 [What I learnt](#WhatILearnt)  
-<a name="Credits"/>
+<a name="WhatILearnts"/>
 
 [Constraints](#Constraints)  
-<a name="Credits"/>
+<a name="Constraints"/>
 
 [Improvements](#Improvements)  
-<a name="Credits"/>
+<a name="Improvements"/>
 
 [Credits](#Credits)  
 <a name="Credits"/>
