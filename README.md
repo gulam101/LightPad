@@ -16,7 +16,7 @@ With LightPad the user can also set the application to dark mode to restrain the
 User can also revert back to the white background if they don't like to using the black background.
 
 ![IMG004](https://user-images.githubusercontent.com/45819118/72182076-9c87ea80-33e2-11ea-9076-a93381336570.PNG)
-The user can change the font size, colour and insert the date/time in the document.
+The user can change the font size, colour and insert the date/time in the document. If the user needs to check how many words they have typed in the document then they can right click and then activate that function.
 
 
 
