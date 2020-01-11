@@ -1,13 +1,14 @@
 # LightPad #
 
 # Table of Contents
+
 [Description](#Description)  
 <a name="Credits"/>
 
-[Planned Features](#Planned Features)  
+[Planned Features](#PlannedFeatures)  
 <a name="Credits"/>
 
-[What I learnt](#What I Learnt)  
+[What I learnt](#WhatILearnt)  
 <a name="Credits"/>
 
 [Constraints](#Constraints)  
