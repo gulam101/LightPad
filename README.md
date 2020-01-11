@@ -19,7 +19,7 @@ User can also revert back to the white background if they don't like to using th
 The user can change the font size, colour and insert the date/time in the document. If the user needs to check how many words they have typed in the document then they can right click and then activate that function.
 
 ##### Table of Contents  
-[Headers](#Credits)  
+###[Credits](#Credits)  
 <a name="Credits"/>
 
 
