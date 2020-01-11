@@ -91,7 +91,7 @@ ________________________________________________________________________________
 
 
 ### Development Changes
-- Date: 10/01/2020
+Date: 10/01/2020
 
 [New Changes]
 + Added confirmation box when user exits the application
