@@ -6,7 +6,7 @@
 <a name="Description:"/>
 
 [Planned Features](#PlannedFeatures)  
-<a name="Planned Features:"/>
+<a name="PlannedFeatures:"/>
 
 [What I learnt](#WhatILearnt)  
 <a name="Credits"/>
