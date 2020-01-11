@@ -62,6 +62,7 @@ I think the interface could be changed and also if the user clicked on the bold 
 
 - Tester: Ainsley crawford
 - Date: 02/12/19
+- Technique: Ad-Hoc
 - Title: Ad hoc testing of the LightPad application revealed the defects described below
 
 1. Ctrl+u has two functions:
