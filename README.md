@@ -3,13 +3,13 @@
 # Table of Contents
 
 [Description](#Description)  
-<a name="Credits"/>
+<a name="Description:"/>
 
 [Planned Features](#PlannedFeatures)  
-<a name="Credits"/>
+<a name=""/>
 
 [What I learnt](#WhatILearnt)  
-<a name="Credits"/>
+
 
 [Constraints](#Constraints)  
 <a name="Credits"/>
@@ -41,7 +41,7 @@ The user can change the font size, colour and insert the date/time in the docume
 
 
 
-### Planned features:
+### Planned Features:
 * *Better interfaces*
 
 
