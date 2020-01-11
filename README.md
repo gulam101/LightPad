@@ -17,12 +17,17 @@
 [Improvements](#Improvements)  
 <a name="Improvements"/>
 
-[Credits](#Credits)  
-<a name="Credits"/>
+[Ad-Hoc Testing](#Ad-Hoc_Testing)  
+<a name="Ad-Hoc_Testing"/>
+
+[Development Changes](#Development_Changes)  
+<a name="Development_Changes"/>
 
 [Screenshots](#Screenshots)
 <a name="Screenshots"/>
 
+[Credits](#Credits)  
+<a name="Credits"/>
 
 ### Description:
 
