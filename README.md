@@ -30,7 +30,7 @@ The user can change the font size, colour and insert the date/time in the docume
 - Placing comments in the application
 - Using keyboard shotcuts to reduce development time
 - Writing cleaner code
-- How to increase performance
+- Better understanding of interfaces
 - How to use GitHub properly
 - How to track GitHub changes
 - How to revert back to original changes in GitHub
