@@ -34,9 +34,9 @@
 
 ### Description:
 
-When I created this project it started out as an online challenge to create an application that could just simply show text and do nothing else. But I decided that I wanted the user to be able to write documents and save them at any time. I started implementing new features across the application and try to design a project that wold test my knowledge in C#.
+When I created this project, it started out as an online challenge to create an application that could just simply show text and do nothing else. But I decided that I wanted the user to be able to write documents and save them at any time. I started implementing new features across the application and try to design a project that wold test my knowledge in C#.
 
-LightPad has its own features such as being able to enable a dark mode that stops the eyes from being strained when using the application. It has its own word count feature that allows the user to count how many words the user has typed and display this action at the top of the screen. 
+LightPad has its own features such as being able to enable a dark mode that stops the eyes from being strained when using the application. It has its own word count feature that allows the user to count how many words the user has typed and display this action at the top of the screen.
 
 
 ### Planned Features:
