@@ -29,9 +29,6 @@
 When I created this project it started out as an online challenge to create a simple project that just shows information on the application. 
 
 
-
-
-
 ### Planned Features:
 * *Better interfaces*
 
@@ -82,15 +79,19 @@ ________________________________________________________________________________
 
 [New Changes]
 + Added confirmation box when user exits the application
+* Moved dark mode into the format tab
+* Moved the links button into the "Extra" menu
+* Renamed light mode into "normal mode"
 * Fixed word count not counting words after a new line was created
 * Fixed when hovering over the "Font Size" button, it would show the highlighted text as "Font SIze"
+* Fixed save not working correctly
+* Fixed the quick save not saving
+* Fixed the menu having spaces between the options bar
+* Changed Icon for quick save
 * Changed the colour of dark mode to a darker colour
 * Corrected changes in the document
 * Corrected changes in the application
-* Fixed the quick save button + changed the icon
-* Moved the links button into "Extra" tab
 - Removed unused file
-- Removed links tab from menu
 ________________________________________________________________________________________________________________________________________
 
 
