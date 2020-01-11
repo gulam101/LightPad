@@ -1,5 +1,25 @@
 # LightPad #
 
+# Table of Contents
+[Description](#Description)  
+<a name="Credits"/>
+
+[Planned Features](#Planned Features)  
+<a name="Credits"/>
+
+[What I learnt](#What I Learnt)  
+<a name="Credits"/>
+
+[Constraints](#Constraints)  
+<a name="Credits"/>
+
+[Improvements](#Improvements)  
+<a name="Credits"/>
+
+[Credits](#Credits)  
+<a name="Credits"/>
+
+
 ### Description:
 
 When I created this project it started out as an online challenge to create a simple project that just shows information on the application. 
@@ -18,24 +38,6 @@ User can also revert back to the white background if they don't like to using th
 ![IMG004](https://user-images.githubusercontent.com/45819118/72182076-9c87ea80-33e2-11ea-9076-a93381336570.PNG)
 The user can change the font size, colour and insert the date/time in the document. If the user needs to check how many words they have typed in the document then they can right click and then activate that function.
 
-##### Table of Contents
-[Description](#Description)  
-<a name="Credits"/>
-
-[Planned Features](#Planned Features)  
-<a name="Credits"/>
-
-[What I learnt](#What I Learnt)  
-<a name="Credits"/>
-
-[Constraints](#Constraints)  
-<a name="Credits"/>
-
-[Improvements](#Improvements)  
-<a name="Credits"/>
-
-[Credits](#Credits)  
-<a name="Credits"/>
 
 
 ### Planned features:
