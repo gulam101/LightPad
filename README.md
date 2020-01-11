@@ -20,6 +20,9 @@
 [Credits](#Credits)  
 <a name="Credits"/>
 
+[Screenshots](#Screenshots)
+<a name="Screenshots"/>
+
 
 ### Description:
 
@@ -132,3 +135,6 @@ ________________________________________
 *	Fixed the open file not opening the correct files
 -	Removed the help menu
 -	Removed the test menu
+
+
+### Screenshots
