@@ -18,9 +18,15 @@ User can also revert back to the white background if they don't like to using th
 ![IMG004](https://user-images.githubusercontent.com/45819118/72182076-9c87ea80-33e2-11ea-9076-a93381336570.PNG)
 The user can change the font size, colour and insert the date/time in the document. If the user needs to check how many words they have typed in the document then they can right click and then activate that function.
 
+##### Table of Contents  
+[Headers](#headers)  
+[Emphasis](#emphasis)  
+...snip...    
+<a name="headers"/>
+## Headers
 
 
-### Planned features for next few builds:
+### Planned features:
 * *Better interfaces*
 
 
@@ -45,6 +51,8 @@ I had some problems where the application wouldn't save and it would crash the a
 I think the interface could be changed and also if the user clicked on the bold icon and decided to click on it again to turn off the feature, it won't let the user. I think this should be fixed as this is a flaw within the application.
 
 ________________________________________________________________________________________________________________________________________
+
+### Credits
 
 [New Changes]
 + Added confirmation box when user exits the application
