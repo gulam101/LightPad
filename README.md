@@ -1,5 +1,7 @@
 # LightPad #
 
+### Create documents using LightPad! Built using C#
+
 # Table of Contents
 
 [Description](#Description)  
