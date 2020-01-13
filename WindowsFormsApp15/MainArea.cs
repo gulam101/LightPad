@@ -267,7 +267,7 @@ namespace LightPad
         }
         #endregion
 
-        #region Normal-Font
+        #region Normal Font
         private void normalToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TextBox.SelectionFont = new Font(TextBox.Font, FontStyle.Regular);
