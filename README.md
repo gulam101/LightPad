@@ -1,4 +1,4 @@
-# LightPad #
+# LightPad
 
 ### Create documents using LightPad! Built using C#
 
