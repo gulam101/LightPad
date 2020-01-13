@@ -387,7 +387,7 @@ namespace LightPad
         }
         #endregion
 
-        #region Word Count RightClick Menu
+        #region Word Count Right Click Menu
         private void wordCountToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string WordCount = TextBox.Text;
