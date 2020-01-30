@@ -57,8 +57,8 @@ LightPad has its own features such as being able to enable a dark mode that stop
 - Unit Testing to check functions work
 
 ### Tools/Links:
-https://trello.com/en
-https://www.linkedin.com/in/ainsley-crawford/ (Tester)
+- https://trello.com/en
+- https://www.linkedin.com/in/ainsley-crawford/ (Tester)
 
 ### Ad-Hoc Testing
 - Title: Ad hoc testing of LightPad
