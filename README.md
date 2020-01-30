@@ -58,6 +58,7 @@ LightPad has its own features such as being able to enable a dark mode that stop
 
 ### Tools/Links:
 https://trello.com/en
+https://www.linkedin.com/in/ainsley-crawford/ (Tester)
 
 ### Ad-Hoc Testing
 - Title: Ad hoc testing of LightPad
