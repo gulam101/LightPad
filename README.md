@@ -61,7 +61,7 @@ https://trello.com/en
 
 ### Ad-Hoc Testing
 - Title: Ad hoc testing of LightPad
-- Tester: Ainsley crawford
+- Tester: Ainsley Crawford
 - Technique: Ad-Hoc
 - Date: 02/12/19
 
