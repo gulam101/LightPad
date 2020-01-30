@@ -90,7 +90,7 @@ ________________________________________________________________________________
 
 
 
-### Development Changes
+### Development Changes:
 Date: 10/01/2020
 
 [New Changes]
@@ -110,7 +110,7 @@ Date: 10/01/2020
 - Removed unused file
 ________________________________________________________________________________________________________________________________________
 
-### Screenshots
+### Screenshots:
 
 ![IMG002](https://user-images.githubusercontent.com/45819118/72181775-f63be500-33e1-11ea-9185-25aed9574182.PNG)
 
@@ -123,6 +123,6 @@ User can also revert back to the white background if they don't like to using th
 ![IMG004](https://user-images.githubusercontent.com/45819118/72182076-9c87ea80-33e2-11ea-9076-a93381336570.PNG)
 The user can change the font size, colour and insert the date/time in the document. If the user needs to check how many words they have typed in the document then they can right click and then activate that function.
 
-### Credits
+### Credits:
 - Gulam Qasim (Author)
 - Ainsley Crawford (Tester)
