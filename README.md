@@ -110,9 +110,6 @@ Date: 10/01/2020
 ________________________________________________________________________________________________________________________________________
 
 ### Screenshots:
-
-![IMG002](https://user-images.githubusercontent.com/45819118/72181775-f63be500-33e1-11ea-9185-25aed9574182.PNG)
-
 ![IMG001](https://user-images.githubusercontent.com/45819118/72182073-9bef5400-33e2-11ea-846c-379f93856e49.PNG)
 With LightPad the user can also set the application to dark mode to restrain the application from damaging their eyes.
 
